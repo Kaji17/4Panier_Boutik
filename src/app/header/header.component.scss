@@ -3,10 +3,12 @@
   margin: 0px;
 }
 
+
 nav {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  background-color: #ffffff;
 }
 
 .logo {
@@ -106,4 +108,73 @@ li a{
   color: #ffffff;
   right: 39%;
     top: -9px;
+}
+.nav-link{
+  display: flex;
+  align-items: center; 
+}
+
+.menu{
+  display: none;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  z-index: 999;
+}
+
+.fixed{
+  position: fixed;
+  width: 100%;
+  transition: 0.2s linear;
+  top: 0px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.nofixed{
+  position: static;
+  transition: 0.2s linear;
+  top: -50px;
+
+}
+@media screen and (max-width:1218px){
+  nav{
+    justify-content: flex-start;
+  }
+  .menu{
+    display: block;
+  }
+  .nav-link {
+    position: fixed;
+    width: 100%;
+    background-color: #0097B2;
+    z-index: 998;
+    height: 100vh;
+    top: 0px;
+    right: -100%;
+    display: flex;
+    justify-content: center;
+    >ul{
+     
+      display: flex;
+      flex-direction: column;
+      >li{
+        margin: 10px 0px;
+      }
+    }
+  }
+  .items{
+    position: absolute;
+    top: 30px;
+    right: 58px;
+  }
+  .search-content{
+    display: none;
+  }
+  ul li a:hover {
+    color: black;
+  }
+  .menuClass{
+    right: 0px;
+    transition: 0.4s ease-in-out;
+  }
+
 }
