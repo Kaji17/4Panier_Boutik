@@ -1,0 +1,109 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.logo {
+  width: 97.85px;
+  height: 89px;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  display: inline-block;
+  position: relative;
+  margin-right: 2rem;
+}
+
+ul li a {
+  display: block;
+  padding: 20px, 25px;
+  color: black;
+  text-decoration: none;
+  text-align: left;
+  font-size: 20px;
+  padding: 5px 0px 10px 30px;
+}
+
+ul li ul.dropdown li {
+  display: block;
+}
+
+.dropdown{
+  width: 200px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+ul li ul.dropdown {
+  width: 181%;
+  background-color: #ffffff;
+  position: absolute;
+  z-index: 999;
+  display: none;
+  border: 1 solid black;
+  border-radius: 5px;
+}
+ul li ul.dropdown li a:hover {
+  color: #0097B2;
+}
+
+ul li a:hover {
+  color: #0097B2;
+}
+
+ul li:hover ul.dropdown {
+  display: block;
+}
+
+ul li:hover ul.dropdown li {
+  text-align: left;
+}
+
+input {
+  width: 20rem;
+  border-width: medium;
+  border-radius: 10px;
+  padding: 10px 5px 10px 47px;
+}
+
+.search-content {
+  position: relative;
+}
+
+.search {
+  position: absolute;
+  left: 5%;
+  top: 25%;
+}
+li a{
+  font-weight: bold;
+}
+.items{
+  position: relative;
+  >span{
+    margin-right: 20px;
+    cursor: pointer;
+  }
+}
+
+.nbrCart{
+  width: 20px;
+  height: 20px;
+  background-color: #0097B2;
+  position: absolute;
+  border-radius: 100%;
+  text-align: center;
+  color: #ffffff;
+  right: 39%;
+    top: -9px;
+}

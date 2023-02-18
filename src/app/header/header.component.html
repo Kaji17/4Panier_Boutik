@@ -1,0 +1,30 @@
+<header>
+  <nav>
+      <img src="../../assets/Logo_4panierBoutik.png" alt="Logo 4panier boutik" class="logo">
+      <div class="search-content">
+        <span class="material-icons search">search</span>
+        <input type="text" placeholder="chercher une marque, un produit, une catégorie">
+      </div>
+      <ul>
+          <li>
+             <a href="#"> MARQUE <span class="material-icons">arrow_drop_down</span></a>
+              <ul class="dropdown">
+                  <li><a href="#">NIKE</a></li>
+                  <li><a href="#">ADIDAS</a></li>
+                  <li><a href="#">JORDAN</a></li>
+                  <li><a href="#">UNDER ARMOUR</a></li>
+              </ul>
+          </li>
+          <li><a href="#">MAILLOTS</a></li>
+          <li><a href="#">CHAUSSURES</a></li>
+          <li><a href="#">ACCESSOIRS</a></li>
+      </ul>
+     <div class="items">
+      <div *ngIf="nbrCmd>0" class="nbrCart">{{ nbrCmd }}</div>
+      <span class="material-icons">person</span>
+      <span class="material-icons">shopping_cart</span>
+      <span class="material-icons">call</span>
+     </div>
+  </nav>
+
+</header>
