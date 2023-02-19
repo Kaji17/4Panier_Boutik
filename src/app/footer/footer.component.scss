@@ -1,0 +1,31 @@
+footer{
+  >:first-child{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  >.footermain{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+}
+.coordonnee{
+  display: flex;
+  flex-direction: column;
+  &__dis{
+    display: flex;
+    >span{
+      margin-right: 10px;
+    }
+  }
+}
+.title {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 35px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+  text-shadow: 2px 8px 7px rgba(0, 0, 0, 0.34);
+}
