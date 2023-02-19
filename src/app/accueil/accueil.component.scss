@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.home-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+
+  &__left {
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 74px;
+    color: #000000;
+    height: 228px;
+    width: 438px;
+
+    >.color-box {
+      height: 76px;
+      width: 250px;
+      background: #0097B2;
+      color: white;
+      padding: 5px 10px;
+    }
+  }
+
+  &__right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 549px;
+    height: 508px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-shadow: inset 4px 6px 8px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+
+    .img-content {
+      display: flex;
+      height: 439px;
+      width: 439px;
+      overflow: hidden;
+
+      img {
+        height: 439px;
+        width: 470px;
+      }
+    }
+
+    .block2 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-sizing: border-box;
+      width: 510px;
+      height: 467.08px;
+      background: #FFFFFF;
+      border: 1px solid #000000;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 7px;
+    }
+  }
+}
+
+.logo-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 56px;
+
+  >.logo1 {
+
+    background-image: url("../../assets/Logo_nike_principal.jpg");
+  }
+
+  >.logo2 {
+    background-image: url("../../assets/adidasLogo.jpg");
+  }
+
+  >.logo3 {
+    background-image: url("../../assets/logoJordan.jpg");
+  }
+
+  >.logo4 {
+    background-image: url("../../assets/Under-Armour-Logo-Vector-730x730.jpg");
+  }
+
+}
+
+.logo {
+  width: 186px;
+  height: 104px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.title-content {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+
+}
+
+.title {
+  width: 395px;
+  height: 45px;
+  font-weight: 700;
+  font-size: 33px;
+  line-height: 45px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #0097B2;
+
+}
