@@ -11,6 +11,7 @@ import { MaillotsDetailiComponent } from './maillots/maillots-detaili/maillots-d
 import { MaillotsListComponent } from './maillots/maillots-list/maillots-list.component';
 import { AccessoiresListComponent } from './accessoires/accessoires-list/accessoires-list.component';
 import { AccessoiresDetailComponent } from './accessoires/accessoires-detail/accessoires-detail.component';
+import { ArticlesListComponent } from './articles-list/articles-list.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { AccessoiresDetailComponent } from './accessoires/accessoires-detail/acc
     MaillotsListComponent,
     AccessoiresListComponent,
     AccessoiresDetailComponent,
+    ArticlesListComponent,
     
   ],
   imports: [
