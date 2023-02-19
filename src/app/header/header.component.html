@@ -1,6 +1,6 @@
 <header>
   <nav (scroll)="onScroll()" [ngClass]="navBarFixed?'fixed':'nofixed'">
-    <img src="../../assets/Logo_4panierBoutik.png" alt="Logo 4panier boutik" class="logo">
+    <img src="../../assets/Logo_4panierBoutik.png" alt="Logo 4panier boutik" class="logo" [routerLink]="['']">
     <div class="nav-link" [class.menuClass]="menuVariable">
       <div class="search-content">
         <span class="material-icons search">search</span>
