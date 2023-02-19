@@ -1,0 +1,59 @@
+.card-article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-height: 488px;
+  max-width: 421px;
+  align-items: center;
+  cursor: pointer;
+
+  &__Name {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    margin-top: 10px;
+  }
+
+  &__Prix {
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: rgba(255, 237, 0, 0.83);
+    margin-top: 10px;
+  }
+
+  .articleImg {
+    height: 287px;
+    width: 320px;
+  }
+}
+
+.grid-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  row-gap: 30px;
+  column-gap: 30px;
+  justify-items: center;
+}
+
+@media screen and (max-width:1026px) {
+  .grid-content {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 10px;
+    column-gap: 10px;
+  }
+}
+@media screen and (max-width:693px){
+  .grid-content {
+    grid-template-columns: 1fr;
+  }
+}

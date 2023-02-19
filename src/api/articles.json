@@ -1,791 +1,781 @@
 [
-    {
-        "articleId": 1,
-        "articleCategorie": "chaussure",
-        "articleName": "NIKE ID KEVIN DURANT 5",
-        "articleMarque": "NIKE",
-        "articleQuantity": 4,
-        "articlePrice": 30.000,
-        "articleAmbassador": "KEVIN DURANT",
-        "articleAmbassadorNum": "",
-        "articleChampionShip": "",
-        "articleYearEdition": "",
-        "articleTeam": "",
-        "articleSize": [
-            45,
-            48
-        ],
-        "articleStyles": [
-            "BasketBall"
-        ],
-        "articleDescription": "Chaussure de BasketBall idéal pour un terrain",
-        "articleColor": [
-            {
-                "name": "Orange, Gris",
-                "image": [
-                    "../assets/Shoes/nike-kd-5#1.jpg",
-                    "../assets/Shoes/nike-kd-5#2.jpg",
-                    "../assets/Shoes/nike-kd-5#3.jpg"
-                ]
-            },
-            {
-                "name": "Christmas",
-                "image": [
-                    "../assets/Shoes/nike-kd-5-christmas-1.jpg",
-                    "../assets/Shoes/nike-kd-5-christmas-2.jpg",
-                    "../assets/Shoes/nike-kd-5-christmas-3.jpg"
-                ]
-            }
+  {
+    "articleId": 1,
+    "articleCategorie": "chaussure",
+    "articleName": "NIKE ID KEVIN DURANT 5",
+    "articleMarque": "NIKE",
+    "articleQuantity": 4,
+    "articlePrice": 30000,
+    "articleAmbassador": "KEVIN DURANT",
+    "articleAmbassadorNum": "",
+    "articleChampionShip": "",
+    "articleYearEdition": "",
+    "articleTeam": "",
+    "articleOverview": "../assets/Shoes/nike-kd-51.jpg",
+    "articleSize": [
+      45,
+      48
+    ],
+    "articleStyles": [
+      "BasketBall"
+    ],
+    "articleDescription": "Chaussure de BasketBall idéal pour un terrain",
+    "articleColor": [
+      {
+        "name": "Orange, Gris",
+        "image": [
+          "../assets/Shoes/nike-kd-51.jpg",
+          "../assets/Shoes/nike-kd-52.jpg",
+          "../assets/Shoes/nike-kd-53.jpg"
         ]
-    },
-    {
-        "articleId": 2,
-        "articleCategorie": "chaussure",
-        "articleName": "NIKE ZOOM LIVE 2",
-        "articleMarque": "NIKE",
-        "articleQuantity": 5,
-        "articlePrice": 30.000,
-        "articleAmbassador": "NIKE",
-        "articleAmbassadorNum": "",
-        "articleChampionShip": "",
-        "articleYearEdition": "",
-        "articleTeam": "",
-        "articleSize": [
-            48.5
-        ],
-        "articleStyles": [
-            "BasketBall"
-        ],
-        "articleDescription": "Chaussure de BasketBall idéal pour un terrain",
-        "articleColor": [
-            {
-                "name": "Noir",
-                "image": [
-                    "../assets/Shoes/nike-zoom-live-2#1.jpeg",
-                    "../assets/Shoes/nike-zoom-live-2#2.jpeg",
-                    "../assets/Shoes/nike-zoom-live-2#3.jpeg",
-                    "../assets/Shoes/nike-zoom-live-2#4.jpeg"
-                ]
-            },
-            {
-                "name": "Blanc",
-                "image": [
-                    "/assets/Shoes/nike-zoom-live-2#5.jpeg"
-                ]
-            }
+      },
+      {
+        "name": "Christmas",
+        "image": [
+          "../assets/Shoes/nike-kd-5-christmas-1.jpg",
+          "../assets/Shoes/nike-kd-5-christmas-2.jpg",
+          "../assets/Shoes/nike-kd-5-christmas-3.jpg"
         ]
-    },
-    {
-        "articleId": 3,
-        "articleCategorie": "chaussure",
-        "articleName": "ADIDAS DERRICK ROSE 773",
-        "articleMarque": "ADIDAS",
-        "articleQuantity": 2,
-        "articlePrice": 20.000,
-        "articleAmbassador": "DERRICK ROSE",
-        "articleAmbassadorNum": "",
-        "articleChampionShip": "",
-        "articleYearEdition": "",
-        "articleTeam": "",
-        "articleSize": [
-            47.5
-        ],
-        "articleStyles": [
-            "BasketBall"
-        ],
-        "articleDescription": "Chaussure de BasketBall idéal pour un terrain",
-        "articleColor": [
-            {
-                "name": "Noir",
-                "image": [
-                    "../assets/Shoes/adidas-derrick -rose-773#1.jpeg",
-                    "../assets/Shoes/adidas-derrick -rose-773#2.jpeg",
-                    "../assets/Shoes/adidas-derrick -rose-773#3.jpeg",
-                    "../assets/Shoes/adidas-derrick -rose-773#4.jpeg"
-                ]
-            },
-            {
-                "name": "Rouge, Noir",
-                "image": [
-                    "../assets/Shoes/adidas-derrick -rose-773#6.jpeg",
-                    "../assets/Shoes/adidas-derrick -rose-773#7.jpeg"
-                ]
-            },
-            {
-                "name": "Blanc",
-                "image": [
-                    "../assets/Shoes/adidas-derrick -rose-773#8.jpeg",
-                    "../assets/Shoes/adidas-derrick -rose-773#9.jpeg",
-                    "../assets/Shoes/adidas-derrick -rose-773#10.jpeg"
-                ]
-            }
+      }
+    ]
+  },
+  {
+    "articleId": 2,
+    "articleCategorie": "chaussure",
+    "articleName": "NIKE ZOOM LIVE 2",
+    "articleMarque": "NIKE",
+    "articleQuantity": 5,
+    "articlePrice": 30000,
+    "articleAmbassador": "NIKE",
+    "articleAmbassadorNum": "",
+    "articleChampionShip": "",
+    "articleYearEdition": "",
+    "articleTeam": "",
+    "articleOverview": "../assets/Shoes/nike-zoom-live-21.jpeg",
+    "articleSize": [
+      48.5
+    ],
+    "articleStyles": [
+      "BasketBall"
+    ],
+    "articleDescription": "Chaussure de BasketBall idéal pour un terrain",
+    "articleColor": [
+      {
+        "name": "Noir",
+        "image": [
+          "../assets/Shoes/nike-zoom-live-21.jpeg",
+          "../assets/Shoes/nike-zoom-live-22.jpeg",
+          "../assets/Shoes/nike-zoom-live-23.jpeg",
+          "../assets/Shoes/nike-zoom-live-24.jpeg"
         ]
-    },
-    {
-        "articleId": 4,
-        "articleCategorie": "chaussure",
-        "articleName": "NIKE HYPER REV 2014",
-        "articleMarque": "NIKE",
-        "articleQuantity": 2,
-        "articlePrice": 25.000,
-        "articleAmbassador": "DERRICK ROSE",
-        "articleAmbassadorNum": "",
-        "articleChampionShip": "",
-        "articleYearEdition": "",
-        "articleTeam": "",
-        "articleSize": [
-            46,
-            48
-        ],
-        "articleStyles": [
-            "BasketBall"
-        ],
-        "articleDescription": "Chaussure de BasketBall idéal pour un terrain",
-        "articleColor": [
-            {
-                "name": "Bleu, Noir, Gris",
-                "image": [
-                    "../assets/Shoes/Nike-Zoom-Hyperrev-noir-gris-ble01.jpg",
-                    "../assets/Shoes/Nike-Zoom-Hyperrev-noir-gris-ble02.jpg",
-                    "../assets/Shoes/Nike-Zoom-Hyperrev-noir-gris-ble03.jpg",
-                    "../assets/Shoes/Nike-Zoom-Hyperrev-noir-gris-ble04.jpg"
-                ]
-            }
+      },
+      {
+        "name": "Blanc",
+        "image": [
+          "/assets/Shoes/nike-zoom-live-25.jpeg"
         ]
-    },
-    {
-        "articleId": 5,
-        "articleCategorie": "chaussure",
-        "articleName": "NIKE KYRIE 4",
-        "articleMarque": "NIKE",
-        "articleQuantity": 2,
-        "articlePrice": 30.000,
-        "articleAmbassador": "KYRIE IRVING",
-        "articleAmbassadorNum": "",
-        "articleChampionShip": "",
-        "articleYearEdition": "",
-        "articleTeam": "",
-        "articleSize": [
-            48.5
-        ],
-        "articleStyles": [
-            "BasketBall"
-        ],
-        "articleDescription": "Chaussure de BasketBall idéal pour un terrain",
-        "articleColor": [
-            {
-                "name": "Rose",
-                "image": [
-                    "../assets/Shoes/nike-kyrie-4-gs.jpg"
-                ]
-            },
-            {
-                "name": "Haloween",
-                "image": [
-                    "../assets/Shoes/nike-kyrie-4-Halloween.jpg"
-                ]
-            },
-            {
-                "name": "Uncle Drew",
-                "image": [
-                    "../assets/Shoes/nike-kyrie-4-uncleDrew#1.jpeg",
-                    "../assets/Shoes/nike-kyrie-4-uncleDrew#2.jpeg",
-                    "../assets/Shoes/nike-kyrie-4-uncleDrew#3.jpeg"
-                ]
-            }
+      }
+    ]
+  },
+  {
+    "articleId": 3,
+    "articleCategorie": "chaussure",
+    "articleName": "ADIDAS DERRICK ROSE 773",
+    "articleMarque": "ADIDAS",
+    "articleQuantity": 2,
+    "articlePrice": 20000,
+    "articleAmbassador": "DERRICK ROSE",
+    "articleAmbassadorNum": "",
+    "articleChampionShip": "",
+    "articleYearEdition": "",
+    "articleTeam": "",
+    "articleOverview": "../assets/Shoes/adidas-derrick -rose-7731.jpeg",
+    "articleSize": [
+      47.5
+    ],
+    "articleStyles": [
+      "BasketBall"
+    ],
+    "articleDescription": "Chaussure de BasketBall idéal pour un terrain",
+    "articleColor": [
+      {
+        "name": "Noir",
+        "image": [
+          "../assets/Shoes/adidas-derrick -rose-7731.jpeg",
+          "../assets/Shoes/adidas-derrick -rose-7732.jpeg",
+          "../assets/Shoes/adidas-derrick -rose-7733.jpeg",
+          "../assets/Shoes/adidas-derrick -rose-7734.jpeg"
         ]
-    },
-    {
-        "articleId": 6,
-        "articleCategorie": "chaussure",
-        "articleName": "JORDAN MAX AURA 4",
-        "articleMarque": "JORDAN",
-        "articleQuantity": 1,
-        "articlePrice": 30.000,
-        "articleAmbassador": "MICHAEL JORDAN",
-        "articleAmbassadorNum": "",
-        "articleChampionShip": "",
-        "articleYearEdition": "",
-        "articleTeam": "",
-        "articleSize": [
-            47.5,
-            45,
-            46
-        ],
-        "articleStyles": [
-            "BasketBall"
-        ],
-        "articleDescription": "Chaussure de BasketBall idéal pour un terrain",
-        "articleColor": [
-            {
-                "name": "Rouge, Noir",
-                "image": [
-                    "../assets/Shoes/jordan-max-aura-4#1.jpg",
-                    "../assets/Shoes/jordan-max-aura-4#2.jpg",
-                    "../assets/Shoes/jordan-max-aura-4#3.jpg"
-                ]
-            }
+      },
+      {
+        "name": "Rouge, Noir",
+        "image": [
+          "../assets/Shoes/adidas-derrick -rose-7736.jpeg",
+          "../assets/Shoes/adidas-derrick -rose-7737.jpeg"
         ]
-    },
-    {
-        "articleId": 7,
-        "articleCategorie": "chaussure",
-        "articleName": "NIKE KOBE XI",
-        "articleMarque": "NIKE",
-        "articleQuantity": 1,
-        "articlePrice": 30.000,
-        "articleAmbassador": "KOBE BRYANT",
-        "articleAmbassadorNum": "",
-        "articleChampionShip": "",
-        "articleYearEdition": "",
-        "articleTeam": "",
-        "articleSize": [
-            46,
-            45,
-            48.5
-        ],
-        "articleStyles": [
-            "BasketBall"
-        ],
-        "articleDescription": "Chaussure de BasketBall idéal pour un terrain",
-        "articleColor": [
-            {
-                "name": "Noir",
-                "image": [
-                    "../assets/Shoes/nike-Kobe-11-Elite-Low#1.jpeg",
-                    "../assets/Shoes/nike-Kobe-11-Elite-Low#2.jpeg",
-                    "../assets/Shoes/nike-Kobe-11-Elite-Low#3.jpeg"
-                ]
-            }
+      },
+      {
+        "name": "Blanc",
+        "image": [
+          "../assets/Shoes/adidas-derrick -rose-7738.jpeg",
+          "../assets/Shoes/adidas-derrick -rose-7739.jpeg",
+          "../assets/Shoes/adidas-derrick -rose-77310.jpeg"
         ]
-    },
-    {
-        "articleId": 8,
-        "articleCategorie": "chaussure",
-        "articleName": "NIKE KOBE AD",
-        "articleMarque": "NIKE",
-        "articleQuantity": 1,
-        "articlePrice": 38.000,
-        "articleAmbassador": "KOBE BRYANT",
-        "articleAmbassadorNum": "",
-        "articleChampionShip": "",
-        "articleYearEdition": "",
-        "articleTeam": "",
-        "articleSize": [
-            48.5,
-            45,
-            40
-        ],
-        "articleStyles": [
-            "BasketBall"
-        ],
-        "articleDescription": "Chaussure de BasketBall idéal pour un terrain",
-        "articleColor": [
-            {
-                "name": "Noir, Hypert Violet",
-                "image": [
-                    "../assets/Shoes/nike-kobe-AD#1.jpeg",
-                    "../assets/Shoes/nike-kobe-AD#2.jpeg"
-                ]
-            }
+      }
+    ]
+  },
+  {
+    "articleId": 4,
+    "articleCategorie": "chaussure",
+    "articleName": "NIKE HYPER REV 2014",
+    "articleMarque": "NIKE",
+    "articleQuantity": 2,
+    "articlePrice": 25000,
+    "articleAmbassador": "DERRICK ROSE",
+    "articleAmbassadorNum": "",
+    "articleChampionShip": "",
+    "articleYearEdition": "",
+    "articleTeam": "",
+    "articleOverview": "../assets/Shoes/Nike-Zoom-Hyperrev-noir-gris-ble01.jpg",
+    "articleSize": [
+      46,
+      48
+    ],
+    "articleStyles": [
+      "BasketBall"
+    ],
+    "articleDescription": "Chaussure de BasketBall idéal pour un terrain",
+    "articleColor": [
+      {
+        "name": "Bleu, Noir, Gris",
+        "image": [
+          "../assets/Shoes/Nike-Zoom-Hyperrev-noir-gris-ble01.jpg",
+          "../assets/Shoes/Nike-Zoom-Hyperrev-noir-gris-ble02.jpg",
+          "../assets/Shoes/Nike-Zoom-Hyperrev-noir-gris-ble03.jpg",
+          "../assets/Shoes/Nike-Zoom-Hyperrev-noir-gris-ble04.jpg"
         ]
-    },
-    {
-        "articleId": 9,
-        "articleCategorie": "chaussure",
-        "articleName": "UNDER ARMOUR CURRY 2",
-        "articleMarque": "UNDER ARMOUR",
-        "articleQuantity": 10,
-        "articlePrice": 30.000,
-        "articleAmbassador": "STEPHEN CURRY",
-        "articleAmbassadorNum": "",
-        "articleChampionShip": "",
-        "articleYearEdition": "",
-        "articleTeam": "",
-        "articleSize": [
-            46,
-            49.5
-        ],
-        "articleStyles": [
-            "BasketBall"
-        ],
-        "articleDescription": "Chaussure de BasketBall idéal pour un terrain",
-        "articleColor": [
-            {
-                "name": "Bleu, Jaune",
-                "image": [
-                    "../assets/Shoes/under-armour-stephen-curry-game-2.jpeg",
-                    "../assets/Shoes/under-armour-stephen-curry-game-2#1.jpeg",
-                    "../assets/Shoes/under-armour-stephen-curry-game-2#2.jpeg"
-                ]
-            }
+      }
+    ]
+  },
+  {
+    "articleId": 5,
+    "articleCategorie": "chaussure",
+    "articleName": "NIKE KYRIE 4",
+    "articleMarque": "NIKE",
+    "articleQuantity": 2,
+    "articlePrice": 30000,
+    "articleAmbassador": "KYRIE IRVING",
+    "articleAmbassadorNum": "",
+    "articleChampionShip": "",
+    "articleYearEdition": "",
+    "articleTeam": "",
+    "articleOverview": "../assets/Shoes/nike-kyrie-4-gs.jpg",
+    "articleSize": [
+      48.5
+    ],
+    "articleStyles": [
+      "BasketBall"
+    ],
+    "articleDescription": "Chaussure de BasketBall idéal pour un terrain",
+    "articleColor": [
+      {
+        "name": "Rose",
+        "image": [
+          "../assets/Shoes/nike-kyrie-4-gs.jpg"
         ]
-    },
-    {
-        "articleId": 9,
-        "articleCategorie": "chaussure",
-        "articleName": "UNDER ARMOUR CURRY 2",
-        "articleMarque": "UNDER ARMOUR",
-        "articleQuantity": 10,
-        "articlePrice": 30.000,
-        "articleAmbassador": "STEPHEN CURRY",
-        "articleAmbassadorNum": "",
-        "articleChampionShip": "",
-        "articleYearEdition": "",
-        "articleTeam": "",
-        "articleSize": [
-            46,
-            49.5
-        ],
-        "articleStyles": [
-            "BasketBall"
-        ],
-        "articleDescription": "Chaussure de BasketBall idéal pour un terrain",
-        "articleColor": [
-            {
-                "name": "Bleu, Jaune",
-                "image": [
-                    "../assets/Shoes/under-armour-stephen-curry-game-2.jpeg",
-                    "../assets/Shoes/under-armour-stephen-curry-game-2#1.jpeg",
-                    "../assets/Shoes/under-armour-stephen-curry-game-2#2.jpeg"
-                ]
-            }
+      },
+      {
+        "name": "Haloween",
+        "image": [
+          "../assets/Shoes/nike-kyrie-4-Halloween.jpg"
         ]
-    },
-    {
-        "articleId": 10,
-        "articleCategorie": "chaussure",
-        "articleName": "UNDER ARMOUR CURRY 2",
-        "articleMarque": "UNDER ARMOUR",
-        "articleQuantity": 5,
-        "articlePrice": 30.000,
-        "articleAmbassador": "STEPHEN CURRY",
-        "articleAmbassadorNum": "",
-        "articleChampionShip": "",
-        "articleYearEdition": "",
-        "articleTeam": "",
-        "articleSize": [
-            46,
-            47,
-            48
-        ],
-        "articleStyles": [
-            "BasketBall"
-        ],
-        "articleDescription": "Chaussure de BasketBall idéal pour un terrain",
-        "articleColor": [
-            {
-                "name": "Rouge, Blanc",
-                "image": [
-                    "../assets/Shoes/under-armour-stephen-curry-game-3#1.jpeg",
-                    "../assets/Shoes/under-armour-stephen-curry-game-3#2.jpeg"
-                ]
-            }
+      },
+      {
+        "name": "Uncle Drew",
+        "image": [
+          "../assets/Shoes/nike-kyrie-4-uncleDrew1.jpeg",
+          "../assets/Shoes/nike-kyrie-4-uncleDrew2.jpeg",
+          "../assets/Shoes/nike-kyrie-4-uncleDrew3.jpeg"
         ]
-    },
-    {
-        "articleId": 11,
-        "articleCategorie": "maillot",
-        "articleName": "Lebron James 2023 All-Star Edition",
-        "articleMarque": "NIKE",
-        "articleQuantity": 6,
-        "articlePrice": 16000,
-        "articleAmbassador": "STEPHEN CURRY",
-        "articleAmbassadorNum": 6,
-        "articleChampionShip": "NBA",
-        "articleYearEdition": "2023",
-        "articleTeam": "All-Star Edition",
-        "articleSize": [
-            "M",
-            "S",
-            "XL",
-            "XXL"
-        ],
-        "articleStyles": [
-            "BasketBall"
-        ],
-        "articleDescription": "Chaussure de BasketBall idéal pour un terrain",
-        "articleColor": [
-            {
-                "name": "Bleu",
-                "image": [
-                    "../assets/Jerseys/lebron-james-2023-all-star-edition-mens#1.jpeg",
-                    "../assets/Jerseys/lebron-james-2023-all-star-edition-mens#2.jpeg"
-                ]
-            },
-            {
-                "name": "Rouge, Jaune",
-                "image": [
-                    "../assets/Jerseys/lebron-james-2023-all-star-edition-mens#3.jpeg",
-                    "../assets/Jerseys/lebron-james-2023-all-star-edition-mens#4.jpeg"
-                ]
-            }
+      }
+    ]
+  },
+  {
+    "articleId": 6,
+    "articleCategorie": "chaussure",
+    "articleName": "JORDAN MAX AURA 4",
+    "articleMarque": "JORDAN",
+    "articleQuantity": 1,
+    "articlePrice": 30000,
+    "articleAmbassador": "MICHAEL JORDAN",
+    "articleAmbassadorNum": "",
+    "articleChampionShip": "",
+    "articleYearEdition": "",
+    "articleTeam": "",
+    "articleOverview": "../assets/Shoes/jordan-max-aura-41.jpg",
+    "articleSize": [
+      47.5,
+      45,
+      46
+    ],
+    "articleStyles": [
+      "BasketBall"
+    ],
+    "articleDescription": "Chaussure de BasketBall idéal pour un terrain",
+    "articleColor": [
+      {
+        "name": "Rouge, Noir",
+        "image": [
+          "../assets/Shoes/jordan-max-aura-41.jpg",
+          "../assets/Shoes/jordan-max-aura-42.jpg",
+          "../assets/Shoes/jordan-max-aura-43.jpg"
         ]
-    },
-    {
-        "articleId": 12,
-        "articleCategorie": "maillot",
-        "articleName": "Jimmy Butler Miami Heat City Edition",
-        "articleMarque": "NIKE",
-        "articleQuantity": 6,
-        "articlePrice": 16000,
-        "articleAmbassador": "Jimmy Butler",
-        "articleAmbassadorNum": 22,
-        "articleChampionShip": "NBA",
-        "articleYearEdition": "2023",
-        "articleTeam": "Miami Heat",
-        "articleSize": [
-            "M",
-            "S",
-            "XL",
-            "XXL"
-        ],
-        "articleStyles": [
-            "BasketBall"
-        ],
-        "articleDescription": "Chaussure de BasketBall idéal pour un terrain",
-        "articleColor": [
-            {
-                "name": "Blanc",
-                "image": [
-                    "../assets/Jerseys/Jimmy-butler-2023-los-miami-edition-mens#1.jpeg",
-                    "../assets/Jerseys/Jimmy-butler-2023-los-miami-edition-mens#2.jpeg"
-                ]
-            },
-            {
-                "name": "Noir",
-                "image": [
-                    "../assets/Jerseys/Jimmy-butler-2023-los-miami-edition-mens#3.jpeg"
-                ]
-            },
-            {
-                "name": "Rose",
-                "image": [
-                    "../assets/Jerseys/Jimmy-butler-2023-los-miami-edition-mens#4.jpeg"
-                ]
-            }
+      }
+    ]
+  },
+  {
+    "articleId": 7,
+    "articleCategorie": "chaussure",
+    "articleName": "NIKE KOBE XI",
+    "articleMarque": "NIKE",
+    "articleQuantity": 1,
+    "articlePrice": 30000,
+    "articleAmbassador": "KOBE BRYANT",
+    "articleAmbassadorNum": "",
+    "articleChampionShip": "",
+    "articleYearEdition": "",
+    "articleTeam": "",
+    "articleOverview": "../assets/Shoes/nike-Kobe-11-Elite-Low1.jpeg",
+    "articleSize": [
+      46,
+      45,
+      48.5
+    ],
+    "articleStyles": [
+      "BasketBall"
+    ],
+    "articleDescription": "Chaussure de BasketBall idéal pour un terrain",
+    "articleColor": [
+      {
+        "name": "Noir",
+        "image": [
+          "../assets/Shoes/nike-Kobe-11-Elite-Low1.jpeg",
+          "../assets/Shoes/nike-Kobe-11-Elite-Low2.jpeg",
+          "../assets/Shoes/nike-Kobe-11-Elite-Low3.jpeg"
         ]
-    },
-    {
-        "articleId": 13,
-        "articleCategorie": "maillot",
-        "articleName": "Tyler Herro Miami Heat City Edition",
-        "articleMarque": "NIKE",
-        "articleQuantity": 14,
-        "articlePrice": 16000,
-        "articleAmbassador": "Tyler Herro",
-        "articleAmbassadorNum": 14,
-        "articleChampionShip": "NBA",
-        "articleYearEdition": "2023",
-        "articleTeam": "Miami Heat",
-        "articleSize": [
-            "M",
-            "S",
-            "XL",
-            "XXL"
-        ],
-        "articleStyles": [
-            "BasketBall"
-        ],
-        "articleDescription": "Chaussure de BasketBall idéal pour un terrain",
-        "articleColor": [
-            {
-                "name": "Blanc",
-                "images": [
-                    "../assets/Jerseys/tyler-hero-miami-heat-blue-city-edition#3jpg.jpg"
-                ]
-            },
-            {
-                "name": "Noir",
-                "images": [
-                    "../assets/Jerseys/tyler-hero-miami-heat-blue-city-edition#2jpg.jpg"
-                ]
-            },
-            {
-                "name": "Bleu",
-                "images": [
-                    "../assets/Jerseys/tyler-hero-miami-heat-blue-city-edition#3jpg.jpg"
-                ]
-            }
+      }
+    ]
+  },
+  {
+    "articleId": 8,
+    "articleCategorie": "chaussure",
+    "articleName": "NIKE KOBE AD",
+    "articleMarque": "NIKE",
+    "articleQuantity": 1,
+    "articlePrice": 38000,
+    "articleAmbassador": "KOBE BRYANT",
+    "articleAmbassadorNum": "",
+    "articleChampionShip": "",
+    "articleYearEdition": "",
+    "articleTeam": "",
+    "articleOverview": "../assets/Shoes/nike-kobe-AD1.jpeg",
+    "articleSize": [
+      48.5,
+      45,
+      40
+    ],
+    "articleStyles": [
+      "BasketBall"
+    ],
+    "articleDescription": "Chaussure de BasketBall idéal pour un terrain",
+    "articleColor": [
+      {
+        "name": "Noir, Hypert Violet",
+        "image": [
+          "../assets/Shoes/nike-kobe-AD1.jpeg",
+          "../assets/Shoes/nike-kobe-AD2.jpeg"
         ]
-    },
-    {
-        "articleId": 14,
-        "articleCategorie": "maillot",
-        "articleName": "Kevin Durant Brooklyn Nets City Edition",
-        "articleMarque": "NIKE",
-        "articleQuantity": 7,
-        "articlePrice": 16000,
-        "articleAmbassador": "Kevin Durant",
-        "articleAmbassadorNum": 7,
-        "articleChampionShip": "NBA",
-        "articleYearEdition": "2023",
-        "articleTeam": "Brooklyn Nets",
-        "articleSize": [
-            "M",
-            "S",
-            "XL",
-            "XXL"
-        ],
-        "articleStyles": [
-            "BasketBall"
-        ],
-        "articleDescription": "Chaussure de BasketBall idéal pour un terrain",
-        "articleColor": [
-            {
-                "name": "Blanc",
-                "image": [
-                    "../assets/Jerseys/kevin-durant-2023-brooklins-mens#1.jpeg",
-                    "../assets/Jerseys/kevin-durant-2023-brooklins-mens#2.jpeg"
-                ]
-            },
-            {
-                "name": "Noir",
-                "image": [
-                    "../assets/Jerseys/kevin-durant-2023-brooklins-mens#3.jpeg"
-                ]
-            },
-            {
-                "name": "Bleu",
-                "image": [
-                    "../assets/Jerseys/kevin-durant-2023-brooklins-mens#4.jpeg"
-                ]
-            }
+      }
+    ]
+  },
+  {
+    "articleId": 9,
+    "articleCategorie": "chaussure",
+    "articleName": "UNDER ARMOUR CURRY 2",
+    "articleMarque": "UNDER ARMOUR",
+    "articleQuantity": 10,
+    "articlePrice": 30000,
+    "articleAmbassador": "STEPHEN CURRY",
+    "articleAmbassadorNum": "",
+    "articleChampionShip": "",
+    "articleYearEdition": "",
+    "articleTeam": "",
+    "articleOverview": "../assets/Shoes/under-armour-stephen-curry-game-2.jpeg",
+    "articleSize": [
+      46,
+      49.5
+    ],
+    "articleStyles": [
+      "BasketBall"
+    ],
+    "articleDescription": "Chaussure de BasketBall idéal pour un terrain",
+    "articleColor": [
+      {
+        "name": "Bleu, Jaune",
+        "image": [
+          "../assets/Shoes/under-armour-stephen-curry-game-2.jpeg",
+          "../assets/Shoes/under-armour-stephen-curry-game-21.jpeg",
+          "../assets/Shoes/under-armour-stephen-curry-game-22.jpeg"
         ]
-    },
-    {
-        "articleId": 15,
-        "articleCategorie": "maillot",
-        "articleName": "Khris Middleton Milwaukee Bucks City Edition",
-        "articleMarque": "NIKE",
-        "articleQuantity": 22,
-        "articlePrice": 16000,
-        "articleAmbassador": "Khris Middleton",
-        "articleAmbassadorNum": 22,
-        "articleChampionShip": "NBA",
-        "articleYearEdition": "2023",
-        "articleTeam": "Milwaukee Bucks",
-        "articleSize": [
-            "M",
-            "S",
-            "XL",
-            "XXL"
-        ],
-        "articleStyles": [
-            "BasketBall"
-        ],
-        "articleDescription": "Chaussure de BasketBall idéal pour un terrain",
-        "articleColor": [
-            {
-                "name": "Vert",
-                "image": [
-                    "../assets/Jerseys/-nike-khris-middleton-hunter-green-milwaukee-bucks#1.jpg"
-                ]
-            },
-            {
-                "name": "Bleu",
-                "image": [
-                    "../assets/Jerseys/-nike-khris-middleton-hunter-green-milwaukee-bucks#2.jpg"
-                ]
-            }
+      }
+    ]
+  },
+  {
+    "articleId": 10,
+    "articleCategorie": "chaussure",
+    "articleName": "UNDER ARMOUR CURRY 2",
+    "articleMarque": "UNDER ARMOUR",
+    "articleQuantity": 5,
+    "articlePrice": 30000,
+    "articleAmbassador": "STEPHEN CURRY",
+    "articleAmbassadorNum": "",
+    "articleChampionShip": "",
+    "articleYearEdition": "",
+    "articleTeam": "",
+    "articleOverview": "../assets/Shoes/under-armour-stephen-curry-game-31.jpeg",
+    "articleSize": [
+      46,
+      47,
+      48
+    ],
+    "articleStyles": [
+      "BasketBall"
+    ],
+    "articleDescription": "Chaussure de BasketBall idéal pour un terrain",
+    "articleColor": [
+      {
+        "name": "Rouge, Blanc",
+        "image": [
+          "../assets/Shoes/under-armour-stephen-curry-game-31.jpeg",
+          "../assets/Shoes/under-armour-stephen-curry-game-32.jpeg"
         ]
-    },
-    {
-        "articleId": 16,
-        "articleCategorie": "maillot",
-        "articleName": "Giannis Milwaukee Bucks City Edition",
-        "articleMarque": "NIKE",
-        "articleQuantity": 34,
-        "articlePrice": 16000,
-        "articleAmbassador": "Giannis",
-        "articleAmbassadorNum": 34,
-        "articleChampionShip": "NBA",
-        "articleYearEdition": "2023",
-        "articleTeam": "Milwaukee Bucks",
-        "articleSize": [
-            "S",
-            "XL",
-            "XXL"
-        ],
-        "articleStyles": [
-            "BasketBall"
-        ],
-        "articleDescription": "Chaussure de BasketBall idéal pour un terrain",
-        "articleColor": [
-            {
-                "name": "Vert",
-                "image": [
-                    "../assets/Jerseys/Giannis-Milwaukee-Bucks-City-Edition#1.jpg"
-                ]
-            },
-            {
-                "name": "Crème",
-                "image": [
-                    "../assets/Jerseys/Giannis-Milwaukee-Bucks-City-Edition#2.jpg"
-                ]
-            }
+      }
+    ]
+  },
+  {
+    "articleId": 11,
+    "articleCategorie": "maillot",
+    "articleName": "Lebron James 2023 All-Star Edition",
+    "articleMarque": "NIKE",
+    "articleQuantity": 6,
+    "articlePrice": 16000,
+    "articleAmbassador": "STEPHEN CURRY",
+    "articleAmbassadorNum": 6,
+    "articleChampionShip": "NBA",
+    "articleYearEdition": "2023",
+    "articleTeam": "All-Star Edition",
+    "articleOverview": "../assets/Jerseys/lebron-james-2023-all-star-edition-mens1.jpeg",
+    "articleSize": [
+      "M",
+      "S",
+      "XL",
+      "XXL"
+    ],
+    "articleStyles": [
+      "BasketBall"
+    ],
+    "articleDescription": "Chaussure de BasketBall idéal pour un terrain",
+    "articleColor": [
+      {
+        "name": "Bleu",
+        "image": [
+          "../assets/Jerseys/lebron-james-2023-all-star-edition-mens1.jpeg",
+          "../assets/Jerseys/lebron-james-2023-all-star-edition-mens2.jpeg"
         ]
-    },
-    {
-        "articleId": 17,
-        "articleCategorie": "maillot",
-        "articleName": "Devin Booker Phoenix Suns City Edition",
-        "articleMarque": "NIKE",
-        "articleQuantity": 3,
-        "articlePrice": 15000,
-        "articleAmbassador": "Devin Booker",
-        "articleAmbassadorNum": 1,
-        "articleChampionShip": "NBA",
-        "articleYearEdition": "2023",
-        "articleTeam": "Phoenix Suns",
-        "articleSize": [
-            "M",
-            "S",
-            "XL",
-            "XXL"
-        ],
-        "articleStyles": [
-            "BasketBall"
-        ],
-        "articleDescription": "Chaussure de BasketBall idéal pour un terrain",
-        "articleColor": [
-            {
-                "name": "Bleu",
-                "image": [
-                    "../assets/Jerseys/Devin-Booker-Phoenix-Suns-City-Edition#1.jpeg",
-                    "../assets/Jerseys/Devin-Booker-Phoenix-Suns-City-Edition#2.jpeg"
-                ]
-            },
-            {
-                "name": "Noir",
-                "image": [
-                    "../assets/Jerseys/Devin-Booker-Phoenix-Suns-City-Edition#3.jpeg"
-                ]
-            }
+      },
+      {
+        "name": "Rouge, Jaune",
+        "image": [
+          "../assets/Jerseys/lebron-james-2023-all-star-edition-mens3.jpeg",
+          "../assets/Jerseys/lebron-james-2023-all-star-edition-mens4.jpeg"
         ]
-    },
-    {
-        "articleId": 18,
-        "articleCategorie": "maillot",
-        "articleName": "Damian Lillard Portland Trail Blazers City Edition",
-        "articleMarque": "NIKE",
-        "articleQuantity": 27,
-        "articlePrice": 19000,
-        "articleAmbassador": "Damian Lillard",
-        "articleAmbassadorNum": 0,
-        "articleChampionShip": "NBA",
-        "articleYearEdition": "2023",
-        "articleTeam": "Portland Trail Blazers",
-        "articleSize": [
-            "M",
-            "S",
-            "XL",
-            "XXL"
-        ],
-        "articleStyles": [
-            "BasketBall"
-        ],
-        "articleDescription": "Chaussure de BasketBall idéal pour un terrain",
-        "articleColor": [
-            {
-                "name": "Noir, Vert",
-                "image": [
-                    "../assets/Jerseys/Damian-Lillard-Portland-Trail-Blazers-City-Edition#1.jpeg",
-                    "../assets/Jerseys/Damian-Lillard-Portland-Trail-Blazers-City-Edition#2.jpeg"
-                ]
-            },
-            {
-                "name": "Rouge, Noir",
-                "image": [
-                    "../assets/Jerseys/Devin-Booker-Phoenix-Suns-City-Edition#4.jpeg"
-                ]
-            }
+      }
+    ]
+  },
+  {
+    "articleId": 12,
+    "articleCategorie": "maillot",
+    "articleName": "Jimmy Butler Miami Heat City Edition",
+    "articleMarque": "NIKE",
+    "articleQuantity": 6,
+    "articlePrice": 16000,
+    "articleAmbassador": "Jimmy Butler",
+    "articleAmbassadorNum": 22,
+    "articleChampionShip": "NBA",
+    "articleYearEdition": "2023",
+    "articleTeam": "Miami Heat",
+    "articleOverview": "../assets/Jerseys/Jimmy-butler-2023-los-miami-edition-mens1.jpeg",
+    "articleSize": [
+      "M",
+      "S",
+      "XL",
+      "XXL"
+    ],
+    "articleStyles": [
+      "BasketBall"
+    ],
+    "articleDescription": "Chaussure de BasketBall idéal pour un terrain",
+    "articleColor": [
+      {
+        "name": "Blanc",
+        "image": [
+          "../assets/Jerseys/Jimmy-butler-2023-los-miami-edition-mens1.jpeg",
+          "../assets/Jerseys/Jimmy-butler-2023-los-miami-edition-mens2.jpeg"
         ]
-    },
-    {
-        "articleId": 19,
-        "articleCategorie": "accessoires",
-        "articleName": "NOCTA BANDEAU A NOUER 2.0 Dri-FIT",
-        "articleMarque": "NIKE",
-        "articleQuantity": 10,
-        "articlePrice": 3000,
-        "articleAmbassador": "NIKE",
-        "articleAmbassadorNum": "",
-        "articleChampionShip": "",
-        "articleYearEdition": "",
-        "articleTeam": "",
-        "articleSize": [
-            "TAILLE UNIQUE"
-        ],
-        "articleStyles": [
-            "BasketBall"
-        ],
-        "articleDescription": "NOCTA offre une technologie anti-transpiration pour vous permettre de rester au sec et de bénéficier d'un maximum de confort, de jour comme de nuit.",
-        "articleColor": [
-            {
-                "name": "Noir",
-                "image": [
-                    "../assets/Accessories/bandeau-nike-furry-nouer#1.jpeg"
-                ]
-            }
+      },
+      {
+        "name": "Noir",
+        "image": [
+          "../assets/Jerseys/Jimmy-butler-2023-los-miami-edition-mens3.jpeg"
         ]
-    },
-    {
-        "articleId": 20,
-        "articleCategorie": "accessoires",
-        "articleName": "NIKE FURY BANDEAU",
-        "articleMarque": "NIKE",
-        "articleQuantity": 10,
-        "articlePrice": 2500,
-        "articleAmbassador": "NIKE",
-        "articleAmbassadorNum": "",
-        "articleChampionShip": "",
-        "articleYearEdition": "",
-        "articleTeam": "",
-        "articleSize": [
-            "TAILLE UNIQUE"
-        ],
-        "articleStyles": [
-            "BasketBall"
-        ],
-        "articleDescription": "Le bandeau Nike Fury est confectionné dans un tissu anti-transpiration extensible pour vous permettre de garder le visage dégagé et favoriser votre concentration à l'entraînement.",
-        "articleColor": [
-            {
-                "name": "Noir",
-                "image": [
-                    "../assets/Accessories/bandeau-nike-furry#1.jpeg",
-                    "../assets/Accessories/bandeau-nike-furry#2.jpeg"
-                ]
-            }
+      },
+      {
+        "name": "Rose",
+        "image": [
+          "../assets/Jerseys/Jimmy-butler-2023-los-miami-edition-mens4.jpeg"
         ]
-    },
-    {
-        "articleId": 21,
-        "articleCategorie": "accessoires",
-        "articleName": "NIKE FURY BANDEAU",
-        "articleMarque": "NIKE",
-        "articleQuantity": 10,
-        "articlePrice": 2500,
-        "articleAmbassador": "NIKE",
-        "articleAmbassadorNum": "",
-        "articleChampionShip": "",
-        "articleYearEdition": "",
-        "articleTeam": "",
-        "articleSize": [
-            "TAILLE UNIQUE"
-        ],
-        "articleStyles": [
-            "BasketBall"
-        ],
-        "articleDescription": "Le bandeau Nike Fury est confectionné dans un tissu anti-transpiration extensible pour vous permettre de garder le visage dégagé et favoriser votre concentration à l'entraînement.",
-        "articleColor": [
-            {
-                "name": "Noir",
-                "image": [
-                    "../assets/Accessories/bandeau-nike-furry#1.jpeg",
-                    "../assets/Accessories/bandeau-nike-furry#2.jpeg"
-                ]
-            }
+      }
+    ]
+  },
+  {
+    "articleId": 13,
+    "articleCategorie": "maillot",
+    "articleName": "Tyler Herro Miami Heat City Edition",
+    "articleMarque": "NIKE",
+    "articleQuantity": 14,
+    "articlePrice": 16000,
+    "articleAmbassador": "Tyler Herro",
+    "articleAmbassadorNum": 14,
+    "articleChampionShip": "NBA",
+    "articleYearEdition": "2023",
+    "articleTeam": "Miami Heat",
+    "articleOverview": "../assets/Jerseys/tyler-hero-miami-heat-blue-city-edition3jpg.jpg",
+    "articleSize": [
+      "M",
+      "S",
+      "XL",
+      "XXL"
+    ],
+    "articleStyles": [
+      "BasketBall"
+    ],
+    "articleDescription": "Chaussure de BasketBall idéal pour un terrain",
+    "articleColor": [
+      {
+        "name": "Blanc",
+        "images": [
+          "../assets/Jerseys/tyler-hero-miami-heat-blue-city-edition3jpg.jpg"
         ]
-    }
+      },
+      {
+        "name": "Noir",
+        "images": [
+          "../assets/Jerseys/tyler-hero-miami-heat-blue-city-edition2jpg.jpg"
+        ]
+      },
+      {
+        "name": "Bleu",
+        "images": [
+          "../assets/Jerseys/tyler-hero-miami-heat-blue-city-edition3jpg.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "articleId": 14,
+    "articleCategorie": "maillot",
+    "articleName": "Kevin Durant Brooklyn Nets City Edition",
+    "articleMarque": "NIKE",
+    "articleQuantity": 7,
+    "articlePrice": 16000,
+    "articleAmbassador": "Kevin Durant",
+    "articleAmbassadorNum": 7,
+    "articleChampionShip": "NBA",
+    "articleYearEdition": "2023",
+    "articleTeam": "Brooklyn Nets",
+    "articleOverview": "../assets/Jerseys/kevin-durant-2023-brooklins-mens1.jpeg",
+    "articleSize": [
+      "M",
+      "S",
+      "XL",
+      "XXL"
+    ],
+    "articleStyles": [
+      "BasketBall"
+    ],
+    "articleDescription": "Chaussure de BasketBall idéal pour un terrain",
+    "articleColor": [
+      {
+        "name": "Blanc",
+        "image": [
+          "../assets/Jerseys/kevin-durant-2023-brooklins-mens1.jpeg",
+          "../assets/Jerseys/kevin-durant-2023-brooklins-mens2.jpeg"
+        ]
+      },
+      {
+        "name": "Noir",
+        "image": [
+          "../assets/Jerseys/kevin-durant-2023-brooklins-mens3.jpeg"
+        ]
+      },
+      {
+        "name": "Bleu",
+        "image": [
+          "../assets/Jerseys/kevin-durant-2023-brooklins-mens4.jpeg"
+        ]
+      }
+    ]
+  },
+  {
+    "articleId": 15,
+    "articleCategorie": "maillot",
+    "articleName": "Khris Middleton Milwaukee Bucks City Edition",
+    "articleMarque": "NIKE",
+    "articleQuantity": 22,
+    "articlePrice": 16000,
+    "articleAmbassador": "Khris Middleton",
+    "articleAmbassadorNum": 22,
+    "articleChampionShip": "NBA",
+    "articleYearEdition": "2023",
+    "articleTeam": "Milwaukee Bucks",
+    "articleOverview": "../assets/Jerseys/-nike-khris-middleton-hunter-green-milwaukee-bucks1.jpg",
+    "articleSize": [
+      "M",
+      "S",
+      "XL",
+      "XXL"
+    ],
+    "articleStyles": [
+      "BasketBall"
+    ],
+    "articleDescription": "Chaussure de BasketBall idéal pour un terrain",
+    "articleColor": [
+      {
+        "name": "Vert",
+        "image": [
+          "../assets/Jerseys/-nike-khris-middleton-hunter-green-milwaukee-bucks1.jpg"
+        ]
+      },
+      {
+        "name": "Bleu",
+        "image": [
+          "../assets/Jerseys/-nike-khris-middleton-hunter-green-milwaukee-bucks2.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "articleId": 16,
+    "articleCategorie": "maillot",
+    "articleName": "Giannis Milwaukee Bucks City Edition",
+    "articleMarque": "NIKE",
+    "articleQuantity": 34,
+    "articlePrice": 16000,
+    "articleAmbassador": "Giannis",
+    "articleAmbassadorNum": 34,
+    "articleChampionShip": "NBA",
+    "articleYearEdition": "2023",
+    "articleTeam": "Milwaukee Bucks",
+    "articleOverview": "../assets/Jerseys/Giannis-Milwaukee-Bucks-City-Edition1.jpg",
+    "articleSize": [
+      "S",
+      "XL",
+      "XXL"
+    ],
+    "articleStyles": [
+      "BasketBall"
+    ],
+    "articleDescription": "Chaussure de BasketBall idéal pour un terrain",
+    "articleColor": [
+      {
+        "name": "Vert",
+        "image": [
+          "../assets/Jerseys/Giannis-Milwaukee-Bucks-City-Edition1.jpg"
+        ]
+      },
+      {
+        "name": "Crème",
+        "image": [
+          "../assets/Jerseys/Giannis-Milwaukee-Bucks-City-Edition2.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "articleId": 17,
+    "articleCategorie": "maillot",
+    "articleName": "Devin Booker Phoenix Suns City Edition",
+    "articleMarque": "NIKE",
+    "articleQuantity": 3,
+    "articlePrice": 15000,
+    "articleAmbassador": "Devin Booker",
+    "articleAmbassadorNum": 1,
+    "articleChampionShip": "NBA",
+    "articleYearEdition": "2023",
+    "articleTeam": "Phoenix Suns",
+    "articleOverview": "../assets/Jerseys/Devin-Booker-Phoenix-Suns-City-Edition1.jpeg",
+    "articleSize": [
+      "M",
+      "S",
+      "XL",
+      "XXL"
+    ],
+    "articleStyles": [
+      "BasketBall"
+    ],
+    "articleDescription": "Chaussure de BasketBall idéal pour un terrain",
+    "articleColor": [
+      {
+        "name": "Bleu",
+        "image": [
+          "../assets/Jerseys/Devin-Booker-Phoenix-Suns-City-Edition1.jpeg",
+          "../assets/Jerseys/Devin-Booker-Phoenix-Suns-City-Edition2.jpeg"
+        ]
+      },
+      {
+        "name": "Noir",
+        "image": [
+          "../assets/Jerseys/Devin-Booker-Phoenix-Suns-City-Edition3.jpeg"
+        ]
+      }
+    ]
+  },
+  {
+    "articleId": 18,
+    "articleCategorie": "maillot",
+    "articleName": "Damian Lillard Portland Trail Blazers City Edition",
+    "articleMarque": "NIKE",
+    "articleQuantity": 27,
+    "articlePrice": 19000,
+    "articleAmbassador": "Damian Lillard",
+    "articleAmbassadorNum": 0,
+    "articleChampionShip": "NBA",
+    "articleYearEdition": "2023",
+    "articleTeam": "Portland Trail Blazers",
+    "articleOverview": "../assets/Jerseys/Damian-Lillard-Portland-Trail-Blazers-City-Edition1.jpeg",
+    "articleSize": [
+      "M",
+      "S",
+      "XL",
+      "XXL"
+    ],
+    "articleStyles": [
+      "BasketBall"
+    ],
+    "articleDescription": "Chaussure de BasketBall idéal pour un terrain",
+    "articleColor": [
+      {
+        "name": "Noir, Vert",
+        "image": [
+          "../assets/Jerseys/Damian-Lillard-Portland-Trail-Blazers-City-Edition1.jpeg",
+          "../assets/Jerseys/Damian-Lillard-Portland-Trail-Blazers-City-Edition2.jpeg"
+        ]
+      },
+      {
+        "name": "Rouge, Noir",
+        "image": [
+          "../assets/Jerseys/Devin-Booker-Phoenix-Suns-City-Edition4.jpeg"
+        ]
+      }
+    ]
+  },
+  {
+    "articleId": 19,
+    "articleCategorie": "accessoires",
+    "articleName": "NOCTA BANDEAU A NOUER 2.0 Dri-FIT",
+    "articleMarque": "NIKE",
+    "articleQuantity": 10,
+    "articlePrice": 3000,
+    "articleAmbassador": "NIKE",
+    "articleAmbassadorNum": "",
+    "articleChampionShip": "",
+    "articleYearEdition": "",
+    "articleTeam": "",
+    "articleOverview": "../assets/Accessories/bandeau-nike-furry-nouer1.jpeg",
+    "articleSize": [
+      "TAILLE UNIQUE"
+    ],
+    "articleStyles": [
+      "BasketBall"
+    ],
+    "articleDescription": "NOCTA offre une technologie anti-transpiration pour vous permettre de rester au sec et de bénéficier d'un maximum de confort, de jour comme de nuit.",
+    "articleColor": [
+      {
+        "name": "Noir",
+        "image": [
+          "../assets/Accessories/bandeau-nike-furry-nouer1.jpeg"
+        ]
+      }
+    ]
+  },
+  {
+    "articleId": 20,
+    "articleCategorie": "accessoires",
+    "articleName": "NIKE FURY BANDEAU",
+    "articleMarque": "NIKE",
+    "articleQuantity": 10,
+    "articlePrice": 2500,
+    "articleAmbassador": "NIKE",
+    "articleAmbassadorNum": "",
+    "articleChampionShip": "",
+    "articleYearEdition": "",
+    "articleTeam": "",
+    "articleOverview": "../assets/Accessories/bandeau-nike-furry1.jpeg",
+    "articleSize": [
+      "TAILLE UNIQUE"
+    ],
+    "articleStyles": [
+      "BasketBall"
+    ],
+    "articleDescription": "Le bandeau Nike Fury est confectionné dans un tissu anti-transpiration extensible pour vous permettre de garder le visage dégagé et favoriser votre concentration à l'entraînement.",
+    "articleColor": [
+      {
+        "name": "Noir",
+        "image": [
+          "../assets/Accessories/bandeau-nike-furry1.jpeg",
+          "../assets/Accessories/bandeau-nike-furry2.jpeg"
+        ]
+      }
+    ]
+  },
+  {
+    "articleId": 21,
+    "articleCategorie": "accessoires",
+    "articleName": "NIKE FURY BANDEAU",
+    "articleMarque": "NIKE",
+    "articleQuantity": 10,
+    "articlePrice": 2500,
+    "articleAmbassador": "NIKE",
+    "articleAmbassadorNum": "",
+    "articleChampionShip": "",
+    "articleYearEdition": "",
+    "articleTeam": "",
+    "articleOverview": "../assets/Accessories/bandeau-nike-furry1.jpeg",
+    "articleSize": [
+      "TAILLE UNIQUE"
+    ],
+    "articleStyles": [
+      "BasketBall"
+    ],
+    "articleDescription": "Le bandeau Nike Fury est confectionné dans un tissu anti-transpiration extensible pour vous permettre de garder le visage dégagé et favoriser votre concentration à l'entraînement.",
+    "articleColor": [
+      {
+        "name": "Noir",
+        "image": [
+          "../assets/Accessories/bandeau-nike-furry1.jpeg",
+          "../assets/Accessories/bandeau-nike-furry2.jpeg"
+        ]
+      }
+    ]
+  }
 ]

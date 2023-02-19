@@ -12,10 +12,11 @@ export class Article{
   articleChampionShip!: string;
   articleYearEdition!: string;
   articleTeam!: string;
+  articleOverview!: string;
   articleSize!: [];
   articleStyles!: [];
   articleDescription!: string;
   articleColor!: Color[];
-  
+
 
 }

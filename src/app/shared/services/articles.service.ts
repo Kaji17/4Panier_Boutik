@@ -5,8 +5,9 @@ import { catchError, tap } from "rxjs/operators";
 import { Article } from "../models/article";
 
 @Injectable({
-  providedIn:"root"
+  providedIn: 'root'
 })
+
 export class ArticleService {
 
   private readonly ARTICLE_API_URL= "api/articles.json"

@@ -12,6 +12,11 @@ import { MaillotsListComponent } from './maillots/maillots-list/maillots-list.co
 import { AccessoiresListComponent } from './accessoires/accessoires-list/accessoires-list.component';
 import { AccessoiresDetailComponent } from './accessoires/accessoires-detail/accessoires-detail.component';
 import { ArticlesListComponent } from './articles-list/articles-list.component';
+import { ArticleService } from './shared/services/articles.service';
+import { HttpClientModule } from '@angular/common/http';
+import { registerLocaleData } from '@angular/common';
+import localFr from '@angular/common/locales/fr';
+registerLocaleData(localFr, 'fr')
 
 @NgModule({
   declarations: [
@@ -29,9 +34,12 @@ import { ArticlesListComponent } from './articles-list/articles-list.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ChaussuresModule
+    ChaussuresModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [
+    ArticleService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
