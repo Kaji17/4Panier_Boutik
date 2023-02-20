@@ -16,6 +16,7 @@ import { ArticleService } from './shared/services/articles.service';
 import { HttpClientModule } from '@angular/common/http';
 import { registerLocaleData } from '@angular/common';
 import localFr from '@angular/common/locales/fr';
+import { ArticlesDetailComponent } from './articles-detail/articles-detail.component';
 registerLocaleData(localFr, 'fr')
 
 @NgModule({
@@ -29,6 +30,7 @@ registerLocaleData(localFr, 'fr')
     AccessoiresListComponent,
     AccessoiresDetailComponent,
     ArticlesListComponent,
+    ArticlesDetailComponent,
     
   ],
   imports: [
