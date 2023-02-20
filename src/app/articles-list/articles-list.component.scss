@@ -33,15 +33,14 @@
   .articleImg {
     height: 287px;
     width: 320px;
-
-    :hover {
-      transform: scale(1.1);
-      transition: all 500ms;
-    }
-
-    overflow: hidden;
-    cursor: pointer;
   }
+  .articleImg:hover {
+    transform: scale(1.1);
+    transition: all 500ms;
+  }
+
+  overflow: hidden;
+  cursor: pointer;
 }
 
 .grid-content {
