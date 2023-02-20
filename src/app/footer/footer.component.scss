@@ -1,25 +1,35 @@
-footer{
-  >:first-child{
+footer {
+  height: 428px;
+  background: #F4F4F4;
+  margin-top: 90px;
+
+  >:first-child {
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  >.footermain{
+
+  >.footermain {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    margin-top: 30px;
   }
 }
-.coordonnee{
+
+.coordonnee {
   display: flex;
   flex-direction: column;
-  &__dis{
+
+  &__dis {
     display: flex;
-    >span{
+
+    >span {
       margin-right: 10px;
     }
   }
 }
+
 .title {
   font-weight: 700;
   font-size: 26px;
@@ -28,4 +38,54 @@ footer{
   align-items: center;
   color: #000000;
   text-shadow: 2px 8px 7px rgba(0, 0, 0, 0.34);
+  margin-top: 32px;
+}
+
+.socialmedia {
+  display: flex;
+
+  >a {
+    margin-right: 32px;
+  }
+
+  i {
+    font-size: 50px;
+  }
+}
+
+.navigation {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+
+}
+.nav{
+  font-weight: 700;
+}
+
+hr{
+  margin: 1rem 13%;
+}
+.copyRigth{
+  margin-left: 10rem;
+}
+
+@media screen and (max-width:950px){
+  footer{
+    >.footermain{
+      flex-direction: column;
+      align-items: flex-start;
+      margin-left: 30px;
+    }
+    .socialmedia {
+      justify-content: center;
+      width: 100%;
+    }
+  }
+  .copyRigth{
+    display: flex;
+    justify-content: center;
+    margin-left: 0px;
+  }
 }
