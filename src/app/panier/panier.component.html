@@ -1,7 +1,10 @@
 <div class="panier-content" *ngIf="product.length != 0">
 
   <div>
-    <h2>MON PANIER</h2>
+    <div class="title">
+      <span class="back " [routerLink]="['/articles']" ><== BACK</span>
+      <h2>MON PANIER</h2>
+    </div>
     <div *ngFor="let article of product">
       <hr>
       <div class="items">
