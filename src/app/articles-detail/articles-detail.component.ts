@@ -43,8 +43,8 @@ export class ArticlesDetailComponent implements OnInit {
     }
   }
 
-  public addToCart(item: any): void{
-    this.cartservice.addToCart(item)
+  public addToCart(item: any, qte:number): void{
+    this.cartservice.addToCart(item, qte)
   }
 
 }

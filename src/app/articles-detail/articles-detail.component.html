@@ -29,7 +29,7 @@
         <button type="button" class="btn-quantity" (click)="plus()">+</button>
       </div>
 
-      <button type="button" class="btn-commande" (click)="addToCart(article)">J’ACHETE</button>
+      <button type="button" class="btn-commande" (click)="addToCart(article, quantity)" [routerLink]="['/panier']">J’ACHETE</button>
     </div>
   </div>
 </div>
