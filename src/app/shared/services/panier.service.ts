@@ -12,11 +12,14 @@ export class PanierService {
 
   constructor(private router: Router) { }
 
+  //Méthode permettant de récuperer tous les produits du panier
   getProducts() : any[]{
     return this.cartItemList
   }
 
-  addToCart(product: Article) {
+  //Méthode servant à ajouter un article au panier 
+  //En fontion du produit passer en param et de la quantité 
+  addToCart(product: Article, qte: number) {
     let productExists = false;
     for (let i in this.cartItemList) {
       if (this.cartItemList[i].id == product.articleId) {
@@ -32,7 +35,10 @@ export class PanierService {
         nom: product.articleName,
         prix: product.articlePrice,
         description: product.articleDescription,
-        quantity: 1,
+
+        //Si la quantité passer en param est supérieur à 0 selectionner sinon
+        //ajouter 1 comme quantité par défaut
+        quantity: qte>0?qte:1,
         url: product.articleOverview
       });
     }
@@ -40,28 +46,20 @@ export class PanierService {
     console.log(this.totalAmount)
   }
 
+  //Calcule le montant total du panier
   getTotalAmount(): number{
     let grandTotal = 0
     if (this.cartItemList) {
-      // this.totalAmount = 0;
       this.cartItemList.map((a:any)=>{
         grandTotal += (a.quantity * a.prix)
 
       })
     }
     return  this.totalAmount = grandTotal
-    //   this.cartItemList.forEach((product:any) => {
-    //     this.totalAmount += (product.quantity * product.prix);
-    //   });
-    // }
-    // return {
-    //   totalAmount: this.totalAmount
-    // };
   }
 
-  getItemsFromCart = () => {
-    return this.cartItemList;
-  }
+
+  //Compte toute les quantités d'article dans le panier
   getCartCount = () => {
     let cartCount = 0;
     if (this.cartItemList) {
@@ -72,29 +70,42 @@ export class PanierService {
     return cartCount;
   }
 
+  //Supprimer tous les produits du panier
   clearCart = () => {
     this.cartItemList = [];
     this.router.navigate(['']);
   }
 
-  removeFromCart = (product:Article) => {
-    this.cartItemList = this.cartItemList.filter((item:any) => item.id !== product.articleId);
-    if (this.cartItemList.length === 0) {
-      this.router.navigate(['']);
+  //Supprimer un produit passer en paramètre du panier
+  removeFromCart = (product:any) => {
+    this.cartItemList.map((a:any, index:any)=>{
+      if(product.id === a.id){
+        this.cartItemList.splice(index, 1)
+      }
+    })
+  }
+
+  //Permet de dimunier la quantité d'article
+  decrementFromCart = (product:any) => {
+    for (let i in this.cartItemList) {
+      if (this.cartItemList[i].id === product.id) {
+        if (this.cartItemList[i].quantity < 1) {
+          this.removeFromCart(product);
+        } else {
+          this.cartItemList[i].quantity--;
+          this.getTotalAmount();
+        }
+      }
     }
     this.getTotalAmount();
   }
 
-  decrementFromCart = (product:any) => {
+  //Augmente la quantité d'article
+  incrementFromCart = (product:any) => {
     for (let i in this.cartItemList) {
       if (this.cartItemList[i].id === product.id) {
-        if (this.cartItemList[i].quantity === 0) {
-          this.removeFromCart(product);
-        } else {
-          this.cartItemList[i].quantity--;
-        }
+        this.cartItemList[i].quantity++;
         this.getTotalAmount();
-        break;
       }
     }
     this.getTotalAmount();
