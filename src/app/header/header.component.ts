@@ -1,4 +1,5 @@
 import { Component, OnInit, HostListener} from '@angular/core';
+import { PanierService } from '../shared/services/panier.service';
 
 @Component({
   selector: 'app-header',
@@ -32,11 +33,14 @@ export class HeaderComponent implements OnInit {
   }
 
   
-  constructor() { }
+  constructor(private cartservice: PanierService) { }
 
   ngOnInit(): void {
-    this.nbrCmd = 1;
     this.iconBtn = "menu"
+  }
+
+  count():number{
+    return this.nbrCmd = this.cartservice.getCartCount()
   }
  
 

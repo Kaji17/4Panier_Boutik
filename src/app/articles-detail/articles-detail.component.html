@@ -1,1 +1,35 @@
-<p>articles-detail works!</p>
+<div class="detail" *ngIf="article">
+  <div class="detail__image">
+    <img src="{{ article.articleOverview }}" alt="{{ article.articleName }}" class="imgMain">
+  </div>
+
+  <div class="detail__info">
+    <h1>{{ article.articleName }}</h1>
+    <div class="marque">
+      <p><strong>MARQUE: </strong></p>
+      <p>{{ article.articleMarque }}</p>
+    </div>
+    <p>{{ article.articleDescription }}</p>
+    <span class="prix">{{ article.articlePrice | currency:'XOF' }}</span>
+    <div class="boxsize-content">
+      <span><strong>TAILLE:</strong></span>
+      <div class="boxsize-content" >
+        <div class="boxsize" *ngFor="let size of article.articleSize">{{ size }}</div>
+      </div>
+    </div>
+    <span><strong>COULEURS: </strong></span>
+    <div class="colourimgs-content">
+      <div *ngFor="let color of article.articleColor"><img src="{{ color }}" alt="" srcset=""class="colourimgs"></div>
+    </div>
+
+    <div class="commande">
+      <div class="quantity">
+        <button type="button" class="btn-quantity" (click)="moins()">-</button>
+        <div class="quantity-article">{{ quantity }}</div>
+        <button type="button" class="btn-quantity" (click)="plus()">+</button>
+      </div>
+
+      <button type="button" class="btn-commande" (click)="addToCart(article)">J’ACHETE</button>
+    </div>
+  </div>
+</div>

@@ -16,7 +16,8 @@ export class Article{
   articleSize!: [];
   articleStyles!: [];
   articleDescription!: string;
-  articleColor!: Color[];
+  articleColorName!: string;
+  articleColor!: [];
 
 
 }

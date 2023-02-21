@@ -12,7 +12,6 @@ import { ChaussuresRoutingModule } from './chaussures-routing.module';
     ChaussuresDetailComponent
   ],
   imports: [
-    CommonModule,
     ChaussuresRoutingModule
   ]
 })

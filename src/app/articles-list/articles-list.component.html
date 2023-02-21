@@ -1,6 +1,6 @@
 <div class="grid-content">
-  <div class="card-article" *ngFor="let article of articles">
-    <img src="{{ article.articleOverview }}" alt="" class="articleImg">
+  <div class="card-article" *ngFor="let article of articles" [routerLink]="['/articles', article.articleId]">
+    <img src="{{ article.articleOverview }}" alt="" class="articleImg" >
     <span class="card-article__Name">{{ article.articleName | uppercase }}</span>
     <span class="card-article__Prix">{{ article.articlePrice | currency:'XOF' }}</span>
   </div>

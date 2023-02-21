@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { FormBuilder } from '@angular/forms';
 import { Article } from '../shared/models/article';
 import { ArticleService } from '../shared/services/articles.service';
 @Component({
@@ -14,7 +13,7 @@ export class ArticlesListComponent implements OnInit {
 
   ngOnInit(): void {
     this.articlesList.getArticle().subscribe({
-      next: articles =>{
+      next: (articles: Article[]) =>{
         this.articles = articles;
       }
     })
