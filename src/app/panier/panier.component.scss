@@ -1,11 +1,15 @@
 .panier-content {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   margin-top: 100px;
 
   .items {
     display: flex;
     justify-content: space-around;
+
+    >.blg2 {
+      max-width: 320px;
+    }
   }
 
   >:first-child {
@@ -15,6 +19,10 @@
   >:last-child {
     display: flex;
     flex-direction: column;
+  }
+
+  span {
+    cursor: pointer;
   }
 }
 
@@ -61,13 +69,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 374px;
+  width: 23%;
   height: 263px;
   justify-content: center;
 }
 
 .commanderWhat {
-  width: 261px;
+  width: 81%;
   height: 53px;
   background: rgba(0, 0, 0, 0.59);
   border-radius: 13px;
@@ -82,19 +90,45 @@
     height: 31px;
   }
 }
-.card{
+
+.card {
   height: 60vh;
   margin: 25px;
   padding: 25px
-
 }
-.center{
+
+.center {
   position: absolute;
   left: 50%;
   top: 40%;
   transform: translate(-50%, -50%);
   text-align: center;
-  >img{
+
+  >img {
     margin-bottom: 20px;
+    height: 100px;
+  }
+}
+
+@media screen and (max-width:1024px) {
+  .center {
+    top: 50%;
+
+    >img {
+      margin-bottom: 20px;
+      height: 150px;
+    }
+  }
+}
+
+@media screen and (max-width:507px) {
+  .card {
+    height: 70vh;
+    margin: 25px;
+    padding: 15px
+  }
+
+  .center {
+    top: 60%;
   }
 }
