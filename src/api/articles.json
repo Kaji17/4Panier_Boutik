@@ -20,23 +20,11 @@
       "BasketBall"
     ],
     "articleDescription": "Chaussure de BasketBall idéal pour un terrain",
+    "articleColorName": "Orange, Gris",
     "articleColor": [
-      {
-        "name": "Orange, Gris",
-        "image": [
-          "../assets/Shoes/nike-kd-51.jpg",
-          "../assets/Shoes/nike-kd-52.jpg",
-          "../assets/Shoes/nike-kd-53.jpg"
-        ]
-      },
-      {
-        "name": "Christmas",
-        "image": [
-          "../assets/Shoes/nike-kd-5-christmas-1.jpg",
-          "../assets/Shoes/nike-kd-5-christmas-2.jpg",
-          "../assets/Shoes/nike-kd-5-christmas-3.jpg"
-        ]
-      }
+      "../assets/Shoes/nike-kd-51.jpg",
+      "../assets/Shoes/nike-kd-5-christmas-2.jpg",
+      "../assets/Shoes/nike-kd-53.jpg"
     ]
   },
   {
@@ -59,22 +47,13 @@
       "BasketBall"
     ],
     "articleDescription": "Chaussure de BasketBall idéal pour un terrain",
+    "articleColorName": "Noir, Blanc",
     "articleColor": [
-      {
-        "name": "Noir",
-        "image": [
-          "../assets/Shoes/nike-zoom-live-21.jpeg",
-          "../assets/Shoes/nike-zoom-live-22.jpeg",
-          "../assets/Shoes/nike-zoom-live-23.jpeg",
-          "../assets/Shoes/nike-zoom-live-24.jpeg"
-        ]
-      },
-      {
-        "name": "Blanc",
-        "image": [
-          "/assets/Shoes/nike-zoom-live-25.jpeg"
-        ]
-      }
+      "../assets/Shoes/nike-zoom-live-21.jpeg",
+      "../assets/Shoes/nike-zoom-live-22.jpeg",
+      "../assets/Shoes/nike-zoom-live-23.jpeg",
+      "../assets/Shoes/nike-zoom-live-24.jpeg",
+      "/assets/Shoes/nike-zoom-live-25.jpeg"
     ]
   },
   {
@@ -97,31 +76,13 @@
       "BasketBall"
     ],
     "articleDescription": "Chaussure de BasketBall idéal pour un terrain",
+    "articleColorName": "Noir, Blanc, Rouge",
     "articleColor": [
-      {
-        "name": "Noir",
-        "image": [
-          "../assets/Shoes/adidas-derrick -rose-7731.jpeg",
-          "../assets/Shoes/adidas-derrick -rose-7732.jpeg",
-          "../assets/Shoes/adidas-derrick -rose-7733.jpeg",
-          "../assets/Shoes/adidas-derrick -rose-7734.jpeg"
-        ]
-      },
-      {
-        "name": "Rouge, Noir",
-        "image": [
-          "../assets/Shoes/adidas-derrick -rose-7736.jpeg",
-          "../assets/Shoes/adidas-derrick -rose-7737.jpeg"
-        ]
-      },
-      {
-        "name": "Blanc",
-        "image": [
-          "../assets/Shoes/adidas-derrick -rose-7738.jpeg",
-          "../assets/Shoes/adidas-derrick -rose-7739.jpeg",
-          "../assets/Shoes/adidas-derrick -rose-77310.jpeg"
-        ]
-      }
+      "../assets/Shoes/adidas-derrick -rose-7731.jpeg",
+      "../assets/Shoes/adidas-derrick -rose-7732.jpeg",
+      "../assets/Shoes/adidas-derrick -rose-7736.jpeg",
+      "../assets/Shoes/adidas-derrick -rose-7737.jpeg",
+      "../assets/Shoes/adidas-derrick -rose-7738.jpeg"
     ]
   },
   {
@@ -145,16 +106,12 @@
       "BasketBall"
     ],
     "articleDescription": "Chaussure de BasketBall idéal pour un terrain",
+    "articleColorName": "Bleu, Noir, Gris",
     "articleColor": [
-      {
-        "name": "Bleu, Noir, Gris",
-        "image": [
-          "../assets/Shoes/Nike-Zoom-Hyperrev-noir-gris-ble01.jpg",
-          "../assets/Shoes/Nike-Zoom-Hyperrev-noir-gris-ble02.jpg",
-          "../assets/Shoes/Nike-Zoom-Hyperrev-noir-gris-ble03.jpg",
-          "../assets/Shoes/Nike-Zoom-Hyperrev-noir-gris-ble04.jpg"
-        ]
-      }
+      "../assets/Shoes/Nike-Zoom-Hyperrev-noir-gris-ble01.jpg",
+      "../assets/Shoes/Nike-Zoom-Hyperrev-noir-gris-ble02.jpg",
+      "../assets/Shoes/Nike-Zoom-Hyperrev-noir-gris-ble03.jpg",
+      "../assets/Shoes/Nike-Zoom-Hyperrev-noir-gris-ble04.jpg"
     ]
   },
   {
@@ -177,27 +134,11 @@
       "BasketBall"
     ],
     "articleDescription": "Chaussure de BasketBall idéal pour un terrain",
+    "articleColorName": "Rose, Haloween, Uncle Drew",
     "articleColor": [
-      {
-        "name": "Rose",
-        "image": [
-          "../assets/Shoes/nike-kyrie-4-gs.jpg"
-        ]
-      },
-      {
-        "name": "Haloween",
-        "image": [
-          "../assets/Shoes/nike-kyrie-4-Halloween.jpg"
-        ]
-      },
-      {
-        "name": "Uncle Drew",
-        "image": [
-          "../assets/Shoes/nike-kyrie-4-uncleDrew1.jpeg",
-          "../assets/Shoes/nike-kyrie-4-uncleDrew2.jpeg",
-          "../assets/Shoes/nike-kyrie-4-uncleDrew3.jpeg"
-        ]
-      }
+      "../assets/Shoes/nike-kyrie-4-gs.jpg",
+      "../assets/Shoes/nike-kyrie-4-uncleDrew2.jpeg",
+      "../assets/Shoes/nike-kyrie-4-Halloween.jpg"
     ]
   },
   {
@@ -222,15 +163,11 @@
       "BasketBall"
     ],
     "articleDescription": "Chaussure de BasketBall idéal pour un terrain",
+    "articleColorName": "Rouge, Noir",
     "articleColor": [
-      {
-        "name": "Rouge, Noir",
-        "image": [
-          "../assets/Shoes/jordan-max-aura-41.jpg",
-          "../assets/Shoes/jordan-max-aura-42.jpg",
-          "../assets/Shoes/jordan-max-aura-43.jpg"
-        ]
-      }
+      "../assets/Shoes/jordan-max-aura-41.jpg",
+      "../assets/Shoes/jordan-max-aura-42.jpg",
+      "../assets/Shoes/jordan-max-aura-43.jpg"
     ]
   },
   {
@@ -255,15 +192,11 @@
       "BasketBall"
     ],
     "articleDescription": "Chaussure de BasketBall idéal pour un terrain",
+    "articleColorName": "Noir",
     "articleColor": [
-      {
-        "name": "Noir",
-        "image": [
-          "../assets/Shoes/nike-Kobe-11-Elite-Low1.jpeg",
-          "../assets/Shoes/nike-Kobe-11-Elite-Low2.jpeg",
-          "../assets/Shoes/nike-Kobe-11-Elite-Low3.jpeg"
-        ]
-      }
+      "../assets/Shoes/nike-Kobe-11-Elite-Low1.jpeg",
+      "../assets/Shoes/nike-Kobe-11-Elite-Low2.jpeg",
+      "../assets/Shoes/nike-Kobe-11-Elite-Low3.jpeg"
     ]
   },
   {
@@ -288,14 +221,10 @@
       "BasketBall"
     ],
     "articleDescription": "Chaussure de BasketBall idéal pour un terrain",
+    "articleColorName": "Noir, Hypert Violet",
     "articleColor": [
-      {
-        "name": "Noir, Hypert Violet",
-        "image": [
-          "../assets/Shoes/nike-kobe-AD1.jpeg",
-          "../assets/Shoes/nike-kobe-AD2.jpeg"
-        ]
-      }
+      "../assets/Shoes/nike-kobe-AD1.jpeg",
+      "../assets/Shoes/nike-kobe-AD2.jpeg"
     ]
   },
   {
@@ -319,15 +248,11 @@
       "BasketBall"
     ],
     "articleDescription": "Chaussure de BasketBall idéal pour un terrain",
+    "articleColorName": "Bleu, Jaune",
     "articleColor": [
-      {
-        "name": "Bleu, Jaune",
-        "image": [
-          "../assets/Shoes/under-armour-stephen-curry-game-2.jpeg",
-          "../assets/Shoes/under-armour-stephen-curry-game-21.jpeg",
-          "../assets/Shoes/under-armour-stephen-curry-game-22.jpeg"
-        ]
-      }
+      "../assets/Shoes/under-armour-stephen-curry-game-2.jpeg",
+      "../assets/Shoes/under-armour-stephen-curry-game-21.jpeg",
+      "../assets/Shoes/under-armour-stephen-curry-game-22.jpeg"
     ]
   },
   {
@@ -352,14 +277,10 @@
       "BasketBall"
     ],
     "articleDescription": "Chaussure de BasketBall idéal pour un terrain",
+    "articleColorName": "Rouge, Blanc",
     "articleColor": [
-      {
-        "name": "Rouge, Blanc",
-        "image": [
-          "../assets/Shoes/under-armour-stephen-curry-game-31.jpeg",
-          "../assets/Shoes/under-armour-stephen-curry-game-32.jpeg"
-        ]
-      }
+      "../assets/Shoes/under-armour-stephen-curry-game-31.jpeg",
+      "../assets/Shoes/under-armour-stephen-curry-game-32.jpeg"
     ]
   },
   {
@@ -385,21 +306,12 @@
       "BasketBall"
     ],
     "articleDescription": "Chaussure de BasketBall idéal pour un terrain",
+    "articleColorName": "Bleu, Rouge, Jaune",
     "articleColor": [
-      {
-        "name": "Bleu",
-        "image": [
-          "../assets/Jerseys/lebron-james-2023-all-star-edition-mens1.jpeg",
-          "../assets/Jerseys/lebron-james-2023-all-star-edition-mens2.jpeg"
-        ]
-      },
-      {
-        "name": "Rouge, Jaune",
-        "image": [
-          "../assets/Jerseys/lebron-james-2023-all-star-edition-mens3.jpeg",
-          "../assets/Jerseys/lebron-james-2023-all-star-edition-mens4.jpeg"
-        ]
-      }
+      "../assets/Jerseys/lebron-james-2023-all-star-edition-mens1.jpeg",
+      "../assets/Jerseys/lebron-james-2023-all-star-edition-mens2.jpeg",
+      "../assets/Jerseys/lebron-james-2023-all-star-edition-mens3.jpeg",
+      "../assets/Jerseys/lebron-james-2023-all-star-edition-mens4.jpeg"
     ]
   },
   {
@@ -425,26 +337,11 @@
       "BasketBall"
     ],
     "articleDescription": "Chaussure de BasketBall idéal pour un terrain",
+    "articleColorName": "Blanc, Noir, Rose",
     "articleColor": [
-      {
-        "name": "Blanc",
-        "image": [
-          "../assets/Jerseys/Jimmy-butler-2023-los-miami-edition-mens1.jpeg",
-          "../assets/Jerseys/Jimmy-butler-2023-los-miami-edition-mens2.jpeg"
-        ]
-      },
-      {
-        "name": "Noir",
-        "image": [
-          "../assets/Jerseys/Jimmy-butler-2023-los-miami-edition-mens3.jpeg"
-        ]
-      },
-      {
-        "name": "Rose",
-        "image": [
-          "../assets/Jerseys/Jimmy-butler-2023-los-miami-edition-mens4.jpeg"
-        ]
-      }
+      "../assets/Jerseys/Jimmy-butler-2023-los-miami-edition-mens1.jpeg",
+      "../assets/Jerseys/Jimmy-butler-2023-los-miami-edition-mens3.jpeg",
+      "../assets/Jerseys/Jimmy-butler-2023-los-miami-edition-mens4.jpeg"
     ]
   },
   {
@@ -470,25 +367,11 @@
       "BasketBall"
     ],
     "articleDescription": "Chaussure de BasketBall idéal pour un terrain",
+    "articleColorName": "Blanc, Noir, Bleu",
     "articleColor": [
-      {
-        "name": "Blanc",
-        "images": [
-          "../assets/Jerseys/tyler-hero-miami-heat-blue-city-edition3jpg.jpg"
-        ]
-      },
-      {
-        "name": "Noir",
-        "images": [
-          "../assets/Jerseys/tyler-hero-miami-heat-blue-city-edition2jpg.jpg"
-        ]
-      },
-      {
-        "name": "Bleu",
-        "images": [
-          "../assets/Jerseys/tyler-hero-miami-heat-blue-city-edition3jpg.jpg"
-        ]
-      }
+      "../assets/Jerseys/tyler-hero-miami-heat-blue-city-edition3jpg.jpg",
+      "../assets/Jerseys/tyler-hero-miami-heat-blue-city-edition2jpg.jpg",
+      "../assets/Jerseys/tyler-hero-miami-heat-blue-city-edition3jpg.jpg"
     ]
   },
   {
@@ -514,26 +397,12 @@
       "BasketBall"
     ],
     "articleDescription": "Chaussure de BasketBall idéal pour un terrain",
+    "articleColorName": "Blanc, Noir, Bleu",
     "articleColor": [
-      {
-        "name": "Blanc",
-        "image": [
-          "../assets/Jerseys/kevin-durant-2023-brooklins-mens1.jpeg",
-          "../assets/Jerseys/kevin-durant-2023-brooklins-mens2.jpeg"
-        ]
-      },
-      {
-        "name": "Noir",
-        "image": [
-          "../assets/Jerseys/kevin-durant-2023-brooklins-mens3.jpeg"
-        ]
-      },
-      {
-        "name": "Bleu",
-        "image": [
-          "../assets/Jerseys/kevin-durant-2023-brooklins-mens4.jpeg"
-        ]
-      }
+      "../assets/Jerseys/kevin-durant-2023-brooklins-mens1.jpeg",
+      "../assets/Jerseys/kevin-durant-2023-brooklins-mens2.jpeg",
+      "../assets/Jerseys/kevin-durant-2023-brooklins-mens3.jpeg",
+      "../assets/Jerseys/kevin-durant-2023-brooklins-mens4.jpeg"
     ]
   },
   {
@@ -559,19 +428,10 @@
       "BasketBall"
     ],
     "articleDescription": "Chaussure de BasketBall idéal pour un terrain",
+    "articleColorName": "Vert, Bleu",
     "articleColor": [
-      {
-        "name": "Vert",
-        "image": [
-          "../assets/Jerseys/-nike-khris-middleton-hunter-green-milwaukee-bucks1.jpg"
-        ]
-      },
-      {
-        "name": "Bleu",
-        "image": [
-          "../assets/Jerseys/-nike-khris-middleton-hunter-green-milwaukee-bucks2.jpg"
-        ]
-      }
+      "../assets/Jerseys/-nike-khris-middleton-hunter-green-milwaukee-bucks1.jpg",
+      "../assets/Jerseys/-nike-khris-middleton-hunter-green-milwaukee-bucks2.jpg"
     ]
   },
   {
@@ -596,19 +456,10 @@
       "BasketBall"
     ],
     "articleDescription": "Chaussure de BasketBall idéal pour un terrain",
+    "articleColorName": "Vert, Crème",
     "articleColor": [
-      {
-        "name": "Vert",
-        "image": [
-          "../assets/Jerseys/Giannis-Milwaukee-Bucks-City-Edition1.jpg"
-        ]
-      },
-      {
-        "name": "Crème",
-        "image": [
-          "../assets/Jerseys/Giannis-Milwaukee-Bucks-City-Edition2.jpg"
-        ]
-      }
+      "../assets/Jerseys/Giannis-Milwaukee-Bucks-City-Edition1.jpg",
+      "../assets/Jerseys/Giannis-Milwaukee-Bucks-City-Edition2.jpg"
     ]
   },
   {
@@ -634,20 +485,11 @@
       "BasketBall"
     ],
     "articleDescription": "Chaussure de BasketBall idéal pour un terrain",
+    "articleColorName": "Bleu, Noir",
     "articleColor": [
-      {
-        "name": "Bleu",
-        "image": [
-          "../assets/Jerseys/Devin-Booker-Phoenix-Suns-City-Edition1.jpeg",
-          "../assets/Jerseys/Devin-Booker-Phoenix-Suns-City-Edition2.jpeg"
-        ]
-      },
-      {
-        "name": "Noir",
-        "image": [
-          "../assets/Jerseys/Devin-Booker-Phoenix-Suns-City-Edition3.jpeg"
-        ]
-      }
+      "../assets/Jerseys/Devin-Booker-Phoenix-Suns-City-Edition1.jpeg",
+      "../assets/Jerseys/Devin-Booker-Phoenix-Suns-City-Edition2.jpeg",
+      "../assets/Jerseys/Devin-Booker-Phoenix-Suns-City-Edition3.jpeg"
     ]
   },
   {
@@ -673,20 +515,11 @@
       "BasketBall"
     ],
     "articleDescription": "Chaussure de BasketBall idéal pour un terrain",
+    "articleColorName": "Vert, Noir, Rouge",
     "articleColor": [
-      {
-        "name": "Noir, Vert",
-        "image": [
-          "../assets/Jerseys/Damian-Lillard-Portland-Trail-Blazers-City-Edition1.jpeg",
-          "../assets/Jerseys/Damian-Lillard-Portland-Trail-Blazers-City-Edition2.jpeg"
-        ]
-      },
-      {
-        "name": "Rouge, Noir",
-        "image": [
-          "../assets/Jerseys/Devin-Booker-Phoenix-Suns-City-Edition4.jpeg"
-        ]
-      }
+      "../assets/Jerseys/Damian-Lillard-Portland-Trail-Blazers-City-Edition1.jpeg",
+      "../assets/Jerseys/Damian-Lillard-Portland-Trail-Blazers-City-Edition2.jpeg",
+      "../assets/Jerseys/Devin-Booker-Phoenix-Suns-City-Edition4.jpeg"
     ]
   },
   {
@@ -709,13 +542,9 @@
       "BasketBall"
     ],
     "articleDescription": "NOCTA offre une technologie anti-transpiration pour vous permettre de rester au sec et de bénéficier d'un maximum de confort, de jour comme de nuit.",
+    "articleColorName": "Noir",
     "articleColor": [
-      {
-        "name": "Noir",
-        "image": [
-          "../assets/Accessories/bandeau-nike-furry-nouer1.jpeg"
-        ]
-      }
+      "../assets/Accessories/bandeau-nike-furry-nouer1.jpeg"
     ]
   },
   {
@@ -738,14 +567,10 @@
       "BasketBall"
     ],
     "articleDescription": "Le bandeau Nike Fury est confectionné dans un tissu anti-transpiration extensible pour vous permettre de garder le visage dégagé et favoriser votre concentration à l'entraînement.",
+    "articleColorName": "Noir",
     "articleColor": [
-      {
-        "name": "Noir",
-        "image": [
-          "../assets/Accessories/bandeau-nike-furry1.jpeg",
-          "../assets/Accessories/bandeau-nike-furry2.jpeg"
-        ]
-      }
+      "../assets/Accessories/bandeau-nike-furry1.jpeg",
+      "../assets/Accessories/bandeau-nike-furry2.jpeg"
     ]
   },
   {
@@ -768,14 +593,10 @@
       "BasketBall"
     ],
     "articleDescription": "Le bandeau Nike Fury est confectionné dans un tissu anti-transpiration extensible pour vous permettre de garder le visage dégagé et favoriser votre concentration à l'entraînement.",
+    "articleColorName": "Noir",
     "articleColor": [
-      {
-        "name": "Noir",
-        "image": [
-          "../assets/Accessories/bandeau-nike-furry1.jpeg",
-          "../assets/Accessories/bandeau-nike-furry2.jpeg"
-        ]
-      }
+      "../assets/Accessories/bandeau-nike-furry1.jpeg",
+      "../assets/Accessories/bandeau-nike-furry2.jpeg"
     ]
   }
 ]
