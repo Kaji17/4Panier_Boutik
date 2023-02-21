@@ -11,12 +11,14 @@ import { MaillotsDetailiComponent } from './maillots/maillots-detaili/maillots-d
 import { MaillotsListComponent } from './maillots/maillots-list/maillots-list.component';
 import { AccessoiresListComponent } from './accessoires/accessoires-list/accessoires-list.component';
 import { AccessoiresDetailComponent } from './accessoires/accessoires-detail/accessoires-detail.component';
-import { ArticlesListComponent } from './articles-list/articles-list.component';
 import { ArticleService } from './shared/services/articles.service';
 import { HttpClientModule } from '@angular/common/http';
 import { registerLocaleData } from '@angular/common';
 import localFr from '@angular/common/locales/fr';
 import { ArticlesDetailComponent } from './articles-detail/articles-detail.component';
+import { ArticlesListComponent } from './articles-list/articles-list.component';
+import { PanierComponent } from './panier/panier.component';
+
 registerLocaleData(localFr, 'fr')
 
 @NgModule({
@@ -31,17 +33,17 @@ registerLocaleData(localFr, 'fr')
     AccessoiresDetailComponent,
     ArticlesListComponent,
     ArticlesDetailComponent,
-    
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    ChaussuresModule,
-    HttpClientModule
+    PanierComponent,
   ],
   providers: [
     ArticleService
   ],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    ChaussuresModule,
+    HttpClientModule,
+  ]
 })
 export class AppModule { }
