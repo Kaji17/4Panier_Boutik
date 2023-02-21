@@ -1,0 +1,100 @@
+.panier-content {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+
+  .items {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  >:first-child {
+    width: 70%;
+  }
+
+  >:last-child {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.commande {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  >.quantity {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    >.btn-quantity {
+      width: 20px;
+      height: 22px;
+      left: 708px;
+      top: 663px;
+      color: #0097B2;
+      border-color: #FFFFFF;
+      background: #FFFFFF;
+      text-align: center;
+      margin-right: 10px;
+      margin-left: 10px;
+    }
+  }
+}
+
+.imgProd {
+  width: 216px;
+  height: 190px;
+
+}
+
+.price {
+  font-weight: 800;
+  font-size: 20px;
+  color: rgba(255, 237, 0, 0.83);
+}
+
+.totalpanier {
+  border: 1px solid #000000;
+  border-radius: 9px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 374px;
+  height: 263px;
+  justify-content: center;
+}
+
+.commanderWhat {
+  width: 261px;
+  height: 53px;
+  background: rgba(0, 0, 0, 0.59);
+  border-radius: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 28px;
+
+  .iconWhat {
+    width: 31px;
+    height: 31px;
+  }
+}
+.card{
+  height: 60vh;
+  margin: 25px;
+  padding: 25px
+
+}
+.center{
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  >img{
+    margin-bottom: 20px;
+  }
+}

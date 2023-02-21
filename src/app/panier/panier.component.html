@@ -1,0 +1,70 @@
+<div class="panier-content" *ngIf="panier">
+
+  <div>
+    <h2>MON PANIER</h2>
+    <div *ngFor="let article of product">
+      <hr>
+      <div class="items">
+        <div>
+          <img src="{{article.url}}" alt="" srcset="" class="imgProd">
+        </div>
+
+        <div>
+          <h1>{{article.nom}}</h1>
+
+          <p>Couleur</p>
+
+          <div class="commande">
+            <div class="quantity">
+              <button type="button" class="btn-quantity">-</button>
+              <div class="quantity-article">{{article.quantity}}</div>
+              <button type="button" class="btn-quantity">+</button>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <p class="price">{{article.quantity * article.prix}}</p>
+        </div>
+
+        <div>
+          <span class="material-icons">delete</span>
+        </div>
+      </div>
+      <hr>
+    </div>
+  </div>
+
+  <div class="totalpanier">
+    <h1>
+      TOTAL PANIER
+    </h1>
+
+    <p class="price">
+      {{ grandTotal | currency:'XOF' }}
+    </p>
+
+    <div class="commanderWhat">
+      <a href="#" target="_blank" id="linka" class="iconWhat">
+        <div class="circleborder--white">
+          <i class="fa-brands fa-whatsapp"></i>
+        </div>
+      </a>
+      COMMANDER
+    </div>
+  </div>
+
+</div>
+
+<div class="container" *ngIf="panierEmpty">
+  <div class="card">
+    <h5 class="card-title">MON PANIER</h5>
+  </div>
+
+  <div class="center">
+    <img src="../../assets/vector-illustration-icon-shopping-concept-260nw-502037047.webp" alt="" srcset="">
+    <h4> Votre panier est vide</h4>
+    <h6>Ajouter des articles maintenant</h6>
+    <button class="btn btn-primary">Shop now</button>
+  </div>
+</div>
