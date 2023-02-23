@@ -57,10 +57,18 @@
           },
           "configurations": {
             "production": {
+              "optimization": {
+                "scripts": true,
+                "styles": {
+                  "minify": true,
+                  "inlineCritical": false
+                },
+                "fonts": true
+              },
               "budgets": [
                 {
                   "type": "initial",
-                  "maximumWarning": "8mb", 
+                  "maximumWarning": "8mb",
                   "maximumError": "8mb"
                 },
                 {
