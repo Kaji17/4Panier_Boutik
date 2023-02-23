@@ -1,1 +1,38 @@
-<p>shoes-list works!</p>
+<div class="main-content">
+  <div class="title-content">
+    <div class="title">
+      CHAUSSURES
+    </div>
+  </div>
+
+  <div>
+    <div>
+      <h2>Articles</h2>
+      <hr>
+      <div class="tranchePrice">
+        <span routerLinkActive="active" [routerLink]="['/nike']">NIKE</span>
+        <span routerLinkActive="active" [routerLink]="['/jordan']">JORDAN</span>
+        <span routerLinkActive="active" [routerLink]="['/adidas']">ADIDAS</span>
+        <span routerLinkActive="active" [routerLink]="['/underArmour']">UNDER ARMOUR</span>
+      </div>
+      <hr>
+      <h2>Tarifs</h2>
+      <hr>
+      <div class="tranchePrice left">
+        <span  routerLinkActive="active" (click)="tarifFilter(0, 0)">ALL</span>
+        <span (click)="tarifFilter(0, 16000)">
+          < 16000 FCFA </span>
+            <span (click)="tarifFilter(17000, 19000)">17000 - 19000 FCFA</span>
+            <span (click)="tarifFilter(20000, 30000)">20000 - 30000 FCFA</span>
+            <span (click)="tarifFilter(30000, 100000)"> >30000 </span>
+      </div>
+    </div>
+    <div class="grid-content">
+      <div class="card-article" *ngFor="let article of listCopier" [routerLink]="['/articles', article.articleId]">
+        <img src="{{ article.articleOverview }}" alt="" class="articleImg">
+        <span class="card-article__Name">{{ article.articleName | uppercase }}</span>
+        <span class="card-article__Prix">{{ article.articlePrice | currency:'XOF' }}</span>
+      </div>
+    </div>
+  </div>
+</div>

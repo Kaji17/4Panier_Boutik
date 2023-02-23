@@ -13,6 +13,8 @@ export class AccessoiresListComponent implements OnInit {
 
   public articles: Article[] = []
 
+  public listCopier: Article[] =[]
+
   public filterAccessoireList: Article[] = []
   ngOnInit(): void {
     this.articleList.getArticle().subscribe({
@@ -20,7 +22,8 @@ export class AccessoiresListComponent implements OnInit {
         this.articles = article
         this.filterAccessoireList = this.articles
         this.filterAccessoireList = this.filterArticle(this.articles, "accessoires");
-        console.log("chaussure",this.filterAccessoireList)
+        this.listCopier = this.filterAccessoireList
+        console.log("accessoires",this.filterAccessoireList)
       }
     })
   }
@@ -31,4 +34,10 @@ export class AccessoiresListComponent implements OnInit {
     })
   }
 
+  tarifFilter(valMin: number, valMax: number){
+    console.log("listcopir",this.listCopier)
+    let listFilter = this.filterAccessoireList.filter(article => article.articlePrice >= valMin && article.articlePrice <= valMax)
+    this.listCopier = listFilter.length>0 ? this.listCopier = listFilter :  this.listCopier =  this.filterAccessoireList
+    console.log("tarif",this.listCopier)
+  } 
 }

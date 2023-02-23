@@ -1,5 +1,6 @@
 import { Component, OnInit, HostListener} from '@angular/core';
 import { Router } from '@angular/router';
+import { Article } from '../shared/models/article';
 import { PanierService } from '../shared/services/panier.service';
 
 @Component({
@@ -20,9 +21,11 @@ export class HeaderComponent implements OnInit {
 
   iconBtn!: string;
   menuVariable: boolean =false;
-
   navBarFixed: boolean = false;
 
+
+  public filterArticleList: Article[] = [];
+  private _articleFilter = "";
   openMenu(){
     if(this.menuVariable == true){
       this.menuVariable = false;

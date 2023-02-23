@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Article } from 'src/app/shared/models/article';
+import { ArticleService } from 'src/app/shared/services/articles.service';
 
 @Component({
   selector: 'app-under-armour-list',
@@ -7,9 +9,37 @@ import { Component, OnInit } from '@angular/core';
 })
 export class UnderArmourListComponent implements OnInit {
 
-  constructor() { }
+  constructor(private articleList: ArticleService) { }
 
+  public articles: Article[] = []
+
+  public listCopier: Article[] =[]
+
+  public filterAdidasList: Article[] = []
   ngOnInit(): void {
+    this.articleList.getArticle().subscribe({
+      next: article => {
+        this.articles = article
+        this.filterAdidasList = this.articles
+        this.filterAdidasList = this.filterArticle(this.articles, "under armour");
+        this.listCopier = this.filterAdidasList
+        console.log("ADIDUNDER ARMOURAS",this.filterAdidasList)
+      }
+    })
   }
+
+  private filterArticle(array: Array<Article>, request: string) {
+    return array.filter(function (el) {
+      return el.articleMarque.toLocaleLowerCase().indexOf(request) !== -1
+    })
+  }
+
+  tarifFilter(valMin: number, valMax: number){
+    console.log("listcopir",this.listCopier)
+    let listFilter = this.filterAdidasList.filter(article => article.articlePrice >= valMin && article.articlePrice <= valMax)
+    this.listCopier = listFilter.length>0 ? this.listCopier = listFilter :  this.listCopier =  this.filterAdidasList
+    console.log("tarif",this.listCopier)
+  } 
+
 
 }

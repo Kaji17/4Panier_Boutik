@@ -24,7 +24,8 @@
     <div class="items">
       <div *ngIf="count()>0" class="nbrCart">{{ nbrCmd }}</div>
       <ng-container *ngIf="true">
-        <span class="material-icons" routerLinkActive="active" routerLinkActive="active" [routerLink]="['/connexion']">person</span>
+        <span class="material-icons" 
+        routerLinkActive="active" [routerLink]="['/connexion']">person</span>
       </ng-container>
       <ng-container *ngIf="false ">
         <span class="material-icons" routerLinkActive="active" routerLinkActive="active" [routerLink]="['/connexion']">person </span>
