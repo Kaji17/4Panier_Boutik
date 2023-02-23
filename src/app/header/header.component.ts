@@ -1,4 +1,5 @@
 import { Component, OnInit, HostListener} from '@angular/core';
+import { Router } from '@angular/router';
 import { PanierService } from '../shared/services/panier.service';
 
 @Component({
@@ -32,8 +33,10 @@ export class HeaderComponent implements OnInit {
     }
   }
 
-  
-  constructor(private cartservice: PanierService) { }
+
+  constructor(
+    private cartservice: PanierService,
+    private router: Router) { }
 
   ngOnInit(): void {
     this.iconBtn = "menu"
@@ -42,6 +45,24 @@ export class HeaderComponent implements OnInit {
   count():number{
     return this.nbrCmd = this.cartservice.getCartCount()
   }
- 
+
+  username = 'katina'
+  userlocal!: any
+  login: boolean = false
+  logout():void{
+    let _temp = {login:false, date:{}}
+    localStorage.setItem("userlocal", JSON.stringify(_temp))
+    window.location.reload()
+  }
+
+  getLocale(){
+    this.userlocal = JSON.parse(localStorage.getItem("userlocal")!)
+    if(this.userlocal && this.userlocal.login){
+      this.login = this.userlocal.login
+    }else{
+      this.login = false
+    }
+  }
+
 
 }

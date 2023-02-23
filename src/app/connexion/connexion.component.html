@@ -1,0 +1,39 @@
+<div class="content-connexion">
+  <img src="../../assets/Logo_4panierBoutik.png" alt="Logo 4panier Boutik">
+  <h4><strong>Connectez vous</strong></h4>
+  <p>renseignez votre adresse mail et votre mot de passe</p>
+  <form action="">
+    <div>
+      <small class="err" [ngClass]="isErr? 'shwo':'hide' ">
+        UserName and Password invalid
+      </small>
+    </div>
+    <input type="text" name="" id="" placeholder="Adresse e-mail" [ngClass]="isErr? 'err':'' "  [(ngModel)]="userName">
+    <input type="text" name="" id="" placeholder="Mot de passe" [ngClass]="isErr? 'err':'' " [(ngModel)]="passWord">
+    <button (click)="login()">CONNEXION</button>
+    <span>
+      Céer un compte
+    </span>
+  </form>
+</div>
+
+<div>
+  <p>
+      userName :: {{userName}}
+  </p>
+  <p>
+      passWord :: {{passWord}}
+  </p>
+</div>
+<hr>
+<div>
+  <p>
+      userName: Rack | passWord: Rack@Jackon
+  </p>
+  <p>
+      userName: John | passWord: John@Doh
+  </p>
+  <p>
+      userName: San | passWord: San@Smith
+  </p>
+</div>

@@ -31,6 +31,7 @@ export class ArticlesDetailComponent implements OnInit {
     this.colorList = this.article.articleColor;
     console.log(this.colorList);
     this.quantity = 0;
+   
   }
 
   public plus(): void{
@@ -45,6 +46,7 @@ export class ArticlesDetailComponent implements OnInit {
 
   public addToCart(item: any, qte:number): void{
     this.cartservice.addToCart(item, qte)
+    localStorage.setItem("panier", JSON.stringify( this.cartservice.getProducts()))
   }
 
 }

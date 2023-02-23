@@ -8,26 +8,33 @@
       </div>
       <ul>
         <li>
-          <a> MARQUE <span class="material-icons">arrow_drop_down</span></a>
+          <a routerLinkActive="active" [routerLink]="['/articles']"> ARTICLES <span class="material-icons">arrow_drop_down</span></a>
           <ul class="dropdown">
-            <li><a href="#">NIKE</a></li>
-            <li><a href="#">ADIDAS</a></li>
-            <li><a href="#">JORDAN</a></li>
-            <li><a href="#">UNDER ARMOUR</a></li>
+            <li><a href="#" routerLinkActive="active" [routerLink]="['/nike']">NIKE</a></li>
+            <li><a href="#" routerLinkActive="active" [routerLink]="['/adidas']">ADIDAS</a></li>
+            <li><a href="#" routerLinkActive="active" [routerLink]="['/jordan']">JORDAN</a></li>
+            <li><a href="#" routerLinkActive="active" [routerLink]="['/underArmour']">UNDER ARMOUR</a></li>
           </ul>
         </li>
-        <li><a href="#">MAILLOTS</a></li>
-        <li><a href="#">CHAUSSURES</a></li>
-        <li><a href="#">ACCESSOIRS</a></li>
+        <li><a href="#" routerLinkActive="active" [routerLink]="['/maillots']">MAILLOTS</a></li>
+        <li><a href="#" routerLinkActive="active" [routerLink]="['/chaussures']">CHAUSSURES</a></li>
+        <li><a href="#" routerLinkActive="active" [routerLink]="['/accessoires']">ACCESSOIRS</a></li>
       </ul>
     </div>
     <div class="items">
       <div *ngIf="count()>0" class="nbrCart">{{ nbrCmd }}</div>
-      <span class="material-icons">person</span>
-      <span class="material-icons" [routerLink]="['/panier']">shopping_cart</span>
-      <span class="material-icons">call</span>
+      <ng-container *ngIf="true">
+        <span class="material-icons" routerLinkActive="active" routerLinkActive="active" [routerLink]="['/connexion']">person</span>
+      </ng-container>
+      <ng-container *ngIf="false ">
+        <span class="material-icons" routerLinkActive="active" routerLinkActive="active" [routerLink]="['/connexion']">person </span>
+        | Name
+        <span (click)="logout()">|DECONNECTION</span>
+      </ng-container>
+      <span class="material-icons" routerLinkActive="active" [routerLink]="['/panier']">shopping_cart</span>
+      <span class="material-icons" routerLinkActive="active">call</span>
     </div>
-    <span class="material-icons menu" #menu  (click)="openMenu()">{{  iconBtn }}</span>
+    <span class="material-icons menu" #menu (click)="openMenu()">{{ iconBtn }}</span>
   </nav>
 
 </header>

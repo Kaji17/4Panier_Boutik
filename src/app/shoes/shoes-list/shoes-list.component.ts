@@ -3,24 +3,24 @@ import { Article } from 'src/app/shared/models/article';
 import { ArticleService } from 'src/app/shared/services/articles.service';
 
 @Component({
-  selector: 'app-accessoires-list',
-  templateUrl: './accessoires-list.component.html',
-  styleUrls: ['./accessoires-list.component.scss']
+  selector: 'app-shoes-list',
+  templateUrl: './shoes-list.component.html',
+  styleUrls: ['./shoes-list.component.scss']
 })
-export class AccessoiresListComponent implements OnInit {
+export class ShoesListComponent implements OnInit {
 
   constructor(private articleList: ArticleService) { }
 
   public articles: Article[] = []
 
-  public filterAccessoireList: Article[] = []
+  public filterChaussureList: Article[] = []
   ngOnInit(): void {
     this.articleList.getArticle().subscribe({
       next: article => {
         this.articles = article
-        this.filterAccessoireList = this.articles
-        this.filterAccessoireList = this.filterArticle(this.articles, "accessoires");
-        console.log("chaussure",this.filterAccessoireList)
+        this.filterChaussureList = this.articles
+        this.filterChaussureList = this.filterArticle(this.articles, "chaussure");
+        console.log("chaussure",this.filterChaussureList)
       }
     })
   }
@@ -30,5 +30,4 @@ export class AccessoiresListComponent implements OnInit {
       return el.articleCategorie.toLocaleLowerCase().indexOf(request) !== -1
     })
   }
-
 }
