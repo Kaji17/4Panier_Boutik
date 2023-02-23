@@ -1,6 +1,6 @@
 <header>
   <nav (scroll)="onScroll()" [ngClass]="navBarFixed?'fixed':'nofixed'">
-    <img src="../../assets/Logo_4panierBoutik.png" alt="Logo 4panier boutik" class="logo" [routerLink]="['']">
+    <img src="assets/Logo_4panierBoutik.png" alt="Logo 4panier boutik" class="logo" [routerLink]="['']">
     <div class="nav-link" [class.menuClass]="menuVariable">
       <div class="search-content">
         <span class="material-icons search">search</span>
@@ -10,21 +10,21 @@
         <li>
           <a routerLinkActive="active" [routerLink]="['/articles']"> ARTICLES <span class="material-icons">arrow_drop_down</span></a>
           <ul class="dropdown">
-            <li><a href="#" routerLinkActive="active" [routerLink]="['/nike']">NIKE</a></li>
-            <li><a href="#" routerLinkActive="active" [routerLink]="['/adidas']">ADIDAS</a></li>
-            <li><a href="#" routerLinkActive="active" [routerLink]="['/jordan']">JORDAN</a></li>
-            <li><a href="#" routerLinkActive="active" [routerLink]="['/underArmour']">UNDER ARMOUR</a></li>
+            <li><a href="#" routerLinkActive="active" [routerLink]="['/nike']"  #menu (click)="openMenu()">NIKE</a></li>
+            <li><a href="#" routerLinkActive="active" [routerLink]="['/adidas']"  #menu (click)="openMenu()">ADIDAS</a></li>
+            <li><a href="#" routerLinkActive="active" [routerLink]="['/jordan']"  #menu (click)="openMenu()">JORDAN</a></li>
+            <li><a href="#" routerLinkActive="active" [routerLink]="['/underArmour']"  #menu (click)="openMenu()">UNDER ARMOUR</a></li>
           </ul>
         </li>
-        <li><a href="#" routerLinkActive="active" [routerLink]="['/maillots']">MAILLOTS</a></li>
-        <li><a href="#" routerLinkActive="active" [routerLink]="['/chaussures']">CHAUSSURES</a></li>
-        <li><a href="#" routerLinkActive="active" [routerLink]="['/accessoires']">ACCESSOIRS</a></li>
+        <li><a href="#" routerLinkActive="active" [routerLink]="['/maillots']"  #menu (click)="openMenu()">MAILLOTS</a></li>
+        <li><a href="#" routerLinkActive="active" [routerLink]="['/chaussures']"  #menu (click)="openMenu()">CHAUSSURES</a></li>
+        <li><a href="#" routerLinkActive="active" [routerLink]="['/accessoires']"  #menu (click)="openMenu()">ACCESSOIRS</a></li>
       </ul>
     </div>
     <div class="items">
       <div *ngIf="count()>0" class="nbrCart">{{ nbrCmd }}</div>
       <ng-container *ngIf="true">
-        <span class="material-icons" 
+        <span class="material-icons"
         routerLinkActive="active" [routerLink]="['/connexion']">person</span>
       </ng-container>
       <ng-container *ngIf="false ">
