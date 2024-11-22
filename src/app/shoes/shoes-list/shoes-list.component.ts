@@ -13,7 +13,7 @@ export class ShoesListComponent implements OnInit {
 
   public articles: Article[] = []
 
-  public listCopier: Article[] =[]
+  public listCopier: Article[] = []
 
   public filterChaussureList: Article[] = []
   ngOnInit(): void {
@@ -23,22 +23,37 @@ export class ShoesListComponent implements OnInit {
         this.filterChaussureList = this.articles
         this.filterChaussureList = this.filterArticle(this.articles, "chaussure");
         this.listCopier = this.filterChaussureList
-        console.log("chaussure",this.filterChaussureList)
+        console.log("chaussure", this.filterChaussureList)
       }
     })
+    // this.getArticle1()
   }
 
+  getArticle1(): void {
+    this.articleList.getArticle1().subscribe({
+      next: article => {
+        this.articles = article
+        this.filterChaussureList = this.articles
+        this.filterChaussureList = this.filterArticle(this.articles, "chaussure");
+        this.listCopier = this.filterChaussureList
+        console.log("chaussure", this.filterChaussureList)
+      },
+      error: (error) => {
+        console.error('Erreur lors de la récupération des articles:', error);
+      }
+    });
+  }
   private filterArticle(array: Array<Article>, request: string) {
     return array.filter(function (el) {
       return el.articleCategorie.toLocaleLowerCase().indexOf(request) !== -1
     })
   }
 
-  tarifFilter(valMin: number, valMax: number){
-    console.log("listcopir",this.listCopier)
+  tarifFilter(valMin: number, valMax: number) {
+    console.log("listcopir", this.listCopier)
     let listFilter = this.filterChaussureList.filter(article => article.articlePrice >= valMin && article.articlePrice <= valMax)
-    this.listCopier = listFilter.length>0 ? this.listCopier = listFilter :  this.listCopier =  this.filterChaussureList
-    console.log("tarif",this.listCopier)
-  } 
+    this.listCopier = listFilter.length > 0 ? this.listCopier = listFilter : this.listCopier = this.filterChaussureList
+    console.log("tarif", this.listCopier)
+  }
 }
 

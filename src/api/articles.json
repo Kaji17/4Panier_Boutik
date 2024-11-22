@@ -11,7 +11,7 @@
     "articleChampionShip": "",
     "articleYearEdition": "",
     "articleTeam": "",
-    "articleOverview": "assets/Shoes/nike-kd-51.jpg",
+    "articleOverview": "https://static.nike.com/a/images/w_1280,q_auto,f_auto/vt4qqtyl9r6xvqenxe87/nike-kyrie-4-confetti-release-date.jpg",
     "articleSize": [
       45,
       48
@@ -22,9 +22,8 @@
     "articleDescription": "Chaussure de BasketBall idéal pour un terrain",
     "articleColorName": "Orange, Gris",
     "articleColor": [
-      "assets/Shoes/nike-kd-51.jpg",
-      "assets/Shoes/nike-kd-5-christmas-2.jpg",
-      "assets/Shoes/nike-kd-53.jpg"
+      "https://static.nike.com/a/images/w_1280,q_auto,f_auto/vt4qqtyl9r6xvqenxe87/nike-kyrie-4-confetti-release-date.jpg",
+      "https://static.nike.com/a/images/w_1280,q_auto,f_auto/vt4qqtyl9r6xvqenxe87/nike-kyrie-4-confetti-release-date.jpg"
     ]
   },
   {
@@ -380,7 +379,7 @@
     "articleName": "Kevin Durant Brooklyn Nets City Edition",
     "articleMarque": "NIKE",
     "articleQuantity": 7,
-    "articlePrice":25500,
+    "articlePrice": 25500,
     "articleAmbassador": "Kevin Durant",
     "articleAmbassadorNum": 7,
     "articleChampionShip": "NBA",

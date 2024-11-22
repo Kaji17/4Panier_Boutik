@@ -13,7 +13,7 @@ export class JordanListComponent implements OnInit {
 
   public articles: Article[] = []
 
-  public listCopier: Article[] =[]
+  public listCopier: Article[] = []
 
   public filterAdidasList: Article[] = []
   ngOnInit(): void {
@@ -23,9 +23,25 @@ export class JordanListComponent implements OnInit {
         this.filterAdidasList = this.articles
         this.filterAdidasList = this.filterArticle(this.articles, "jordan");
         this.listCopier = this.filterAdidasList
-        console.log("jordan",this.filterAdidasList)
+        console.log("jordan", this.filterAdidasList)
       }
     })
+    //this.getArticle1()
+  }
+
+  getArticle1(): void {
+    this.articleList.getArticle1().subscribe({
+      next: article => {
+        this.articles = article
+        this.filterAdidasList = this.articles
+        this.filterAdidasList = this.filterArticle(this.articles, "jordan");
+        this.listCopier = this.filterAdidasList
+        console.log("jordan", this.filterAdidasList)
+      },
+      error: (error) => {
+        console.error('Erreur lors de la récupération des articles:', error);
+      }
+    });
   }
 
   private filterArticle(array: Array<Article>, request: string) {
@@ -34,11 +50,11 @@ export class JordanListComponent implements OnInit {
     })
   }
 
-  tarifFilter(valMin: number, valMax: number){
-    console.log("listcopir",this.listCopier)
+  tarifFilter(valMin: number, valMax: number) {
+    console.log("listcopir", this.listCopier)
     let listFilter = this.filterAdidasList.filter(article => article.articlePrice >= valMin && article.articlePrice <= valMax)
-    this.listCopier = listFilter.length>0 ? this.listCopier = listFilter :  this.listCopier =  this.filterAdidasList
-    console.log("tarif",this.listCopier)
-  } 
+    this.listCopier = listFilter.length > 0 ? this.listCopier = listFilter : this.listCopier = this.filterAdidasList
+    console.log("tarif", this.listCopier)
+  }
 
 }

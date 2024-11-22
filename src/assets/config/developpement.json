@@ -1,0 +1,12 @@
+{
+  "HOST_API-DEV": "https://boutique-quatre-panier-33f09c3cc948.herokuapp.com/",
+  "HOST:API": "https://boutique-quatre-panier-33f09c3cc948.herokuapp.com/",
+  "API_ENDPOINTS": {
+    "comment ": "------------ OPERATIONS UTILISATEUR ---------------",
+    "USER_CREATE": "users/create",
+    "comment ": "------------ OPERATIONS ARTICLES ---------------",
+    "ARTICLE_GETALL": "articles"
+  },
+  "imgVar": "/var/www/html/",
+  "imgHttp": "https://kms02.net/"
+}
