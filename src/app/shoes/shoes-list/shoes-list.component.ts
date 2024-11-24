@@ -17,16 +17,16 @@ export class ShoesListComponent implements OnInit {
 
   public filterChaussureList: Article[] = []
   ngOnInit(): void {
-    this.articleList.getArticle().subscribe({
-      next: article => {
-        this.articles = article
-        this.filterChaussureList = this.articles
-        this.filterChaussureList = this.filterArticle(this.articles, "chaussure");
-        this.listCopier = this.filterChaussureList
-        console.log("chaussure", this.filterChaussureList)
-      }
-    })
-    // this.getArticle1()
+    // this.articleList.getArticle().subscribe({
+    //   next: article => {
+    //     this.articles = article
+    //     this.filterChaussureList = this.articles
+    //     this.filterChaussureList = this.filterArticle(this.articles, "chaussure");
+    //     this.listCopier = this.filterChaussureList
+    //     console.log("chaussure", this.filterChaussureList)
+    //   }
+    // })
+    this.getArticle1()
   }
 
   getArticle1(): void {
