@@ -20,7 +20,7 @@ export class ArticleService {
     );
   }
   public getArticle1(obj?: any): Observable<Article[]> {
-    return this.http.get<Article[]>(this.configService.getApi("articles"), {
+    return this.http.get<Article[]>(this.configService.getApi("ARTICLE_GETALL"), {
       params: obj,
     }).pipe(
       tap(response => console.log("response: ", response)),

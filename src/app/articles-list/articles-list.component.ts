@@ -12,12 +12,12 @@ export class ArticlesListComponent implements OnInit {
   public articles!: Article[]
 
   ngOnInit(): void {
-    this.articlesList.getArticle().subscribe({
-      next: (articles: Article[]) => {
-        this.articles = articles;
-      }
-    })
-    //this.getArticle1()
+    // this.articlesList.getArticle().subscribe({
+    //   next: (articles: Article[]) => {
+    //     this.articles = articles;
+    //   }
+    // })
+    this.getArticle1()
   }
 
   getArticle1(): void {
